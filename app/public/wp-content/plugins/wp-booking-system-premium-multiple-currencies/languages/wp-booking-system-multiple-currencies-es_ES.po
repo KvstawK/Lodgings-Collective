@@ -1,0 +1,99 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Booking System - Multiple Currencies\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-22 22:15+0000\n"
+"PO-Revision-Date: 2021-11-22 22:17+0000\n"
+"Last-Translator: \n"
+"Language-Team: Español\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.5; wp-5.8.2\n"
+"X-Domain: wp-booking-system-multiple-currencies"
+
+#: index.php:131
+msgid "\">update</a> to the latest version."
+msgstr "\"> actualizar </a> a la última versión."
+
+#: includes/base/admin/settings/functions.php:12
+msgid "Additional Currencies"
+msgstr "Monedas adicionales"
+
+#: includes/base/admin/settings/functions.php:13
+msgid ""
+"Additional currencies that the customer can switch between. Make sure the "
+"Payment Gateways you use all support the selected currencies."
+msgstr ""
+"Monedas adicionales entre las que el cliente puede cambiar. Asegúrese de que "
+"todas las pasarelas de pago que utiliza sean compatibles con las monedas "
+"seleccionadas."
+
+#: includes/base/admin/settings/functions.php:91
+msgid ""
+"After selecting some currencies and saving the page, the conversion rates "
+"will appear here."
+msgstr ""
+"Después de seleccionar algunas monedas y guardar la página, las tasas de "
+"conversión aparecerán aquí."
+
+#. Description of the plugin
+msgid ""
+"Allow your customers to switch between currencies when making a payment."
+msgstr "Permita que sus clientes cambien de moneda al realizar un pago."
+
+#: includes/base/admin/settings/functions.php:27
+msgid "Auto Rates"
+msgstr "Tarifas automáticas"
+
+#: includes/base/admin/settings/functions.php:44
+msgid "Auto Rates - API Key"
+msgstr "Tarifas automáticas - Clave API"
+
+#: includes/base/admin/settings/functions.php:65
+msgid "Conversion Rates"
+msgstr "Medidas de conversión"
+
+#: includes/base/admin/settings/functions.php:28
+msgid ""
+"Enabling this will automatically retrieve the conversion rates from https:"
+"//exchangeratesapi.io/. Rates are updated daily."
+msgstr ""
+"Habilitar esto recuperará automáticamente las tasas de conversión de https:"
+"//exchangeratesapi.io/. Las tarifas se actualizan diariamente."
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.wpbookingsystem.com/"
+msgstr ""
+
+#: includes/base/admin/settings/functions.php:7
+msgid "Multiple Currencies"
+msgstr "Varias monedas"
+
+#. Author of the plugin
+msgid "Veribo, Roland Murg"
+msgstr ""
+
+#. Name of the plugin
+msgid "WP Booking System - Multiple Currencies"
+msgstr "WP Booking System - Monedas Múltiples"
+
+#: includes/base/admin/settings/functions.php:54
+msgid ""
+"You will need to sign up for a free API key at <a href=\"https://fixer.io/\" "
+"target=\"_blank\">https://fixer.io/</a>"
+msgstr ""
+"Deberá registrarse para obtener una clave API gratuita en <a href=\"https:"
+"//fixer.io/\" target=\"_blank\">https://fixer.io/</a>"
+
+#: includes/base/admin/settings/functions.php:45
+msgid ""
+"Your <a href=\"https://fixer.io/\" target=\"_blank\">https://fixer.io/</a> "
+"API Key."
+msgstr ""
+"Tu <a href=\"https://fixer.io/\" target=\"_blank\">https://fixer.io/</a> "
+"clave API."

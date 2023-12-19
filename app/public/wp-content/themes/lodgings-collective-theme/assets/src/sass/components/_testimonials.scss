@@ -1,0 +1,49 @@
+.testimonials {
+	position: relative;
+
+	&__nav {
+		position: absolute;
+		width: auto;
+		height: auto;
+		bottom: -10%;
+		right: 50%;
+		transform: translateX(50%);
+		z-index: 10;
+		display: flex;
+		gap: 0.5rem;
+
+		&-dot {
+			width: 25px;
+			height: 25px;
+			border-radius: 50%;
+			border: 1px solid $black-light;
+			background-color: transparent;
+
+			&.active {
+				background-color: $yellow-main;
+			}
+		}
+	}
+
+	&__container {
+		text-align: center;
+
+		&-sliders {
+			list-style-type: none;
+
+			&-item {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-wrap: wrap;
+				gap: 3rem;
+
+				&-slide {
+					background-color: white;
+					width: calc(100% / 3 - 2rem);
+					height: 500px;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,33 @@
+.container {
+	margin: auto;
+	height: 100%;
+	width: calc(100% - 30px);
+
+	@include breakpoint(phoneLandscape) {
+		width: calc(100% - 70px);
+	}
+
+	@include breakpoint(tablet) {
+		width: calc(100% - 100px);
+	}
+
+	@include breakpoint(desktop) {
+		max-width: 1140px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	&--border {
+		border-top: 1px solid $black-extra-light;
+	}
+
+	&--wide {
+
+		@include breakpoint(desktop) {
+			max-width: 1500px;
+			padding-left: 0;
+			padding-right: 0;
+			margin: auto;
+		}
+	}
+}

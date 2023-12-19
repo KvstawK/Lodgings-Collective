@@ -1,0 +1,278 @@
+.villas-apartments {
+
+	&__greece, &__greece-crete {
+
+		&-general {
+			width: 70%;
+			margin: auto;
+			position: relative;
+
+			&-item {
+				padding-bottom: 2rem;
+
+				h2 {
+					position: relative;
+					text-align: center;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					justify-content: center;
+					gap: 1rem;
+
+					@include breakpoint(tablet) {
+						width: fit-content;
+						text-align: unset;
+						display: block;
+					}
+
+					span {
+						display: block;
+						position: relative;
+						width: 50%;
+						height: 5px;
+						background-color: $yellow-dark;
+						text-align: center;
+
+						@include breakpoint(tablet) {
+							position: absolute;
+							bottom: -5px;
+							width: 100%;
+							height: 5px;
+							left: 20px;
+							animation-name: welcome-border-bottom-link;
+							animation-duration: 0.6s;
+							animation-fill-mode: forwards;
+						}
+					}
+				}
+
+				p {
+					text-align: center;
+					padding-top: 1rem;
+
+					@include breakpoint(tablet) {
+						text-align: unset;
+						padding-top: 0;
+					}
+				}
+			}
+
+			&-read-more {
+				background-color: transparent;
+				border: none;
+				padding: 0;
+				margin: 1rem 0;
+				font-family: $mulish;
+				font-size: 1rem;
+				font-weight: 600;
+				line-height: 1.5;
+				letter-spacing: 0.1rem;
+				color: black;
+				word-wrap: break-word;
+				transition: 0.3s ease-out;
+				width: 100%;
+				text-align: center;
+				pointer-events: none;
+
+				a {
+					background-color: transparent;
+					color: black;
+					padding: 0.5rem 0.75rem;
+					border: 3px solid black;
+					border-radius: 0;
+					width: fit-content;
+					display: inline-block;
+					cursor: pointer;
+					pointer-events: visible;
+					transition: 0.3s ease-out;
+
+					&:hover {
+						background-color: $yellow-main;
+						color: white;
+					}
+				}
+
+				&:hover {
+					color: white;
+				}
+			}
+
+			&-hidden-content {
+				display: none;
+
+				& .villas-apartments__greece-general-item, & .villas-apartments__greece-crete-general-item {
+					padding-bottom: 2rem;
+
+					&:nth-child(1) {
+						padding-top: -2rem;
+
+						h2 {
+							position: relative;
+
+							span {
+
+								@include breakpoint(tablet) {
+									position: absolute;
+									bottom: -5px;
+									width: 100%;
+									height: 5px;
+									left: 20px;
+									background-color: $yellow-dark;
+								}
+							}
+						}
+					}
+				}
+
+				&.active {
+					display: block;
+					max-height: 100%;
+				}
+			}
+		}
+
+		&-places {
+
+			h2 {
+				position: relative;
+				text-align: center;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				gap: 1rem;
+
+				@include breakpoint(tablet) {
+					text-align: unset;
+					display: block;
+					width: fit-content;
+				}
+
+				span {
+					display: block;
+					position: relative;
+					width: 50%;
+					height: 5px;
+					background-color: $yellow-dark;
+					text-align: center;
+
+					@include breakpoint(tablet) {
+						position: absolute;
+						bottom: -5px;
+						width: 100%;
+						left: 20px;
+					}
+				}
+			}
+
+			& .lc-carousel {
+				padding-top: 1rem;
+
+				& .two-slide-carousel:nth-child(1) {
+
+					& .two-slide-carousel-first-image {
+
+						img {
+							object-position: top;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.page-id-576, .page-id-631 {
+
+	& .menu-item-has-children {
+
+		span {
+			display: block;
+		}
+	}
+
+	& .menu >  {
+
+		li:nth-child(3) > a {
+
+			&:hover {
+
+				span {
+					display: none;
+				}
+			}
+		}
+	}
+
+	& .menu-main-menu-container ul li {
+
+		&:nth-child(2) {
+
+			a {
+				color: $yellow-dark !important;
+
+				span {
+					position: absolute;
+					bottom: -25%;
+					left: 10px;
+					width: 100%;
+					height: 5px;
+					background-color: $yellow-dark;
+					animation-name: border-bottom-link;
+					animation-duration: 0.6s;
+
+					@include breakpoint(desktop) {
+						width: 100%;
+					}
+				}
+			}
+		}
+
+		& > .sub-menu {
+
+			li {
+
+				//&:nth-child(1) {
+				//
+				//	span {
+				//		position: absolute;
+				//		bottom: -25%;
+				//		left: 10px;
+				//		width: 100%;
+				//		height: 5px;
+				//		background-color: $yellow-dark;
+				//		animation-name: border-bottom-link;
+				//		animation-duration: 0.6s;
+				//
+				//		@include breakpoint(desktop) {
+				//			width: 100%;
+				//		}
+				//
+				//		& .page-id-411 {
+				//			display:none;
+				//		}
+				//	}
+				//}
+
+				&:nth-child(2), &:nth-child(3) {
+
+					a {
+						color:black !important;
+
+						&:hover {
+							color: $yellow-dark !important;
+
+							span {
+								display:block;
+							}
+						}
+					}
+
+					span {
+						display:none;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,97 @@
+.skip-link {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+
+  &:focus {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background: #ffffff;
+    padding: 10px 15px;
+    width: auto;
+    height: auto;
+    z-index: 1000;
+  }
+}
+
+button, input, textarea, a, img, .lc-carousel__btn {
+
+	&:focus {
+		outline: none;
+	}
+
+	&:focus-visible {
+		outline: 3px solid black;
+		transition: none !important;
+	}
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.theme-screen-reader-text {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.page-section {
+  padding: 6rem 0;
+
+	@include breakpoint(tablet) {
+		padding: 8rem 0;
+	}
+
+	@include breakpoint(desktop) {
+		padding: 10rem 0;
+	}
+
+	&--sm {
+		padding: 6rem 0;
+
+		@include breakpoint(tablet) {
+			padding: 4rem 0;
+		}
+
+		@include breakpoint(desktop) {
+			padding: 5rem 0;
+		}
+	}
+}
+
+.reveal-item {
+	opacity: 0.75;
+	transform: translateY(10%);
+	transition: all 0.25s ease-in;
+
+	@include breakpoint(desktop) {
+		transform: translateY(15%);
+	}
+
+	&--is-visible {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+.orange-dark {
+
+	a {
+		color: #AC8D68;
+	}
+}

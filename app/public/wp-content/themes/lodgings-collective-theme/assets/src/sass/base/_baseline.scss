@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+.resize-animation-stopper * {
+	animation: none !important;
+	transition: none !important;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	position: relative;
+	overflow-x: hidden;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+:focus {
+	outline: none;
+}
+
+:focus-visible {
+	outline-offset: 0.5rem;
+	outline: 3px solid black;
+}

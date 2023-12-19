@@ -1,0 +1,123 @@
+// Header animations
+@keyframes border-bottom-link {
+	from {
+		width: 0;
+	} to {
+		  width: 100%;
+	  }
+}
+
+// Homepage animations
+@keyframes border-bottom-social {
+	from {
+		width: 0;
+	} to {
+		  width: 100%;
+	  }
+}
+
+@keyframes faq {
+	from {
+		opacity: 0;
+		height: 0;
+		visibility: hidden;
+	} to {
+		  opacity: 1;
+		  height: 100%;
+		  visibility: visible;
+	  }
+}
+
+@keyframes welcome-border-bottom-link {
+	from {
+		width: 0;
+	} to {
+		  width: 100%;
+	  }
+}
+
+@keyframes social-transform-translate {
+	from {
+		opacity: 0.75;
+		transform: translateY(50%);
+	} to {
+		  opacity: 1;
+		  transform: translateY(0);
+	  }
+}
+
+@keyframes social-border-bottom-link {
+	from {
+		transform: scale(1.1);
+	} to {
+		  transform: scale(1);
+	  }
+}
+
+// Villas-apartments animations
+@keyframes welcome-border-bottom-link {
+	from {
+		width: 0;
+	} to {
+		  width: 100%;
+	  }
+}
+
+
+// Rentals animations
+@keyframes facilities {
+	from {
+		opacity: 0;
+	} to {
+		  opacity: 1;
+	  }
+}
+
+@keyframes content {
+	from {
+		opacity: 0;
+	} to {
+		  opacity: 1;
+	  }
+}
+
+@keyframes dots-slider-active-animation {
+	from {
+		opacity: 0.7;
+	} to {
+		  opacity: 1;
+	  }
+}
+
+// Services animations
+@keyframes icons-move-1 {
+	0%    {
+		transform: translateX(0%);
+		visibility: visible;
+	}
+	50%  {
+		transform: translateX(100%);
+		visibility: hidden;
+	}
+	50.01%  {
+		transform: translateX(-100%);
+		visibility: hidden;
+	}
+	100%  {
+		transform: translateX(0%);
+		visibility: visible;
+	}
+}
+
+@keyframes icons-move-2 {
+	0%    {
+		transform: translateX(-100%);
+	}
+	100%  {
+		transform: translateX(100%);
+	}
+}
+
+
+
+

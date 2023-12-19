@@ -1,0 +1,88 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Booking System - Limited Bookings per Day\n"
+"POT-Creation-Date: 2021-02-02 00:48+0100\n"
+"PO-Revision-Date: 2021-02-02 02:29+0100\n"
+"Last-Translator: Tobias D. <info@td-projects.de>\n"
+"Language-Team: Tobias D. <info@td-projects.de>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/base/admin/functions.php:20 includes/base/admin/functions.php:71
+msgid "Inventory"
+msgstr "Inventar"
+
+#: includes/base/admin/functions.php:24
+msgid "Maximum Bookings per Day"
+msgstr "Maximale Buchungen pro Tag"
+
+#: includes/base/admin/functions.php:31
+msgid "Set Default Limit"
+msgstr "Standardlimit festlegen"
+
+#: includes/base/admin/functions.php:71
+msgid ""
+"In this column you can see number of bookings that can be made for each day. "
+"When a booking is made, the number decreases by 1."
+msgstr ""
+"In dieser Spalte kannst du die Anzahl der Buchungen sehen, die für jeden Tag "
+"gemacht werden können. Wenn eine Buchung gemacht wird, verringert sich die "
+"Zahl um 1."
+
+#: includes/base/admin/functions.php:114
+msgid "Maximum Bookings"
+msgstr "Maximale Buchungen"
+
+#: includes/base/admin/functions.php:258
+msgid "Price Calculation"
+msgstr "Preisberechnung"
+
+#: includes/base/admin/functions.php:258
+msgid "None"
+msgstr "Keine"
+
+#: includes/base/admin/functions.php:258
+msgid "Multiply by Calendar Price"
+msgstr "Mit Kalenderpreis multiplizieren"
+
+#: index.php:128
+msgid ""
+"The <strong>Limited Bookings per Day</strong> Add-on requires WP Booking "
+"System version "
+msgstr ""
+"Das <strong>Add-on \"Limited Bookings per Day\"</strong> erfordert WP "
+"Booking System Version "
+
+#. Plugin Name of the plugin/theme
+msgid "WP Booking System - Limited Bookings per Day"
+msgstr "WP Booking System - Limited Bookings per Day"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.wpbookingsystem.com/"
+msgstr "https://www.wpbookingsystem.com/"
+
+#. Description of the plugin/theme
+msgid ""
+"Allow multiple bookings per day and automatically make the dates unavailable "
+"when the maximum number of bookings is reached."
+msgstr ""
+"Erlaube mehrere Buchungen pro Tag und mache die Termine automatisch nicht "
+"mehr verfügbar, wenn die maximale Anzahl an Buchungen erreicht ist."
+
+#. Author of the plugin/theme
+msgid "Veribo, Roland Murg"
+msgstr "Veribo, Roland Murg"

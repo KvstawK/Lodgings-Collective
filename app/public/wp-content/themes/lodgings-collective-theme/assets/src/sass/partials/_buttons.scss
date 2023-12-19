@@ -1,0 +1,83 @@
+.btn, .wpbs-form-submit-button button, .lc-rentals__reviews-container-form .submit, .comment-form .submit {
+	padding: 1rem 3rem;
+	border-radius: 20px;
+	border: 1px solid $blue-main;
+	cursor: pointer;
+	background-color: $blue-main !important;
+	color: white;
+	transition: 0.3s ease-out;
+	word-break: break-word;
+	margin: 1.5rem 0;
+	font-size: 1.075rem;
+	text-shadow: 0.5px 0.5px 0.5px rgba(0,0,0,0.4);
+
+	@include breakpoint(phoneLandscape) {
+		padding: 1rem 3.5rem;
+	}
+
+	&:hover {
+		background-color: $yellow-dark !important;
+	}
+
+	&--big {
+		//padding: 1.25rem 4.5rem;
+		background-color: transparent;
+		font-size: 1.75rem;
+		border: none;
+		color: $yellow-dark;
+		text-decoration: underline;
+		padding-right: 0.25rem;
+
+		@include breakpoint(tablet) {
+			font-size: 2rem;
+		}
+
+		&:hover {
+			color: $yellow-main !important;
+			background-color: transparent;
+		}
+	}
+
+	&--blog {
+		background-color: transparent !important;
+		color: $orange-dark;
+		border: none;
+		padding: 0;
+		display: flex;
+		align-items: center;
+		margin: 0;
+		text-shadow: 0.25px 0.25px 0.25px rgba(0,0,0,0.4);
+
+		img {
+			width: 40px;
+			height: 30px;
+		}
+
+		&:hover {
+			background-color: transparent !important;
+			color: $yellow-dark;
+			transform: scale(1.01);
+		}
+	}
+}
+
+.wpbs-form-submit-button button {
+	padding: 1.25rem 5.5rem;
+}
+
+.wpbs-payment-confirmation-stripe-form #wpbs-stripe-card-button {
+	padding: 1rem 3.5rem;
+	border-radius: 20px;
+	border: 1px solid $blue-main;
+	cursor: pointer;
+	background-color: $blue-main !important;
+	color: white;
+	transition: 0.3s ease-out;
+	margin: 1.5rem 0;
+	font-size: 1.075rem;
+	text-shadow: 0.5px 0.5px 0.5px rgba(0,0,0,0.4);
+
+	&:hover {
+		background-color: $yellow-dark !important;
+	}
+}

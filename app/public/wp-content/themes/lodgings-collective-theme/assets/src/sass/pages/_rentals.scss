@@ -1,0 +1,1323 @@
+.rentals {
+	position: relative;
+
+	a {
+		color: black;
+	}
+
+	img {
+		object-fit: contain;
+		object-position: center;
+		width: 100vw;
+		height: 450px;
+	}
+
+	&__search {
+		padding: 2rem 0;
+	}
+
+	&__items {
+
+		&-container {
+
+			&-search {
+				padding-bottom: 4rem;
+			}
+
+			&-rentals {
+				display: flex;
+				flex-direction: column;
+				flex-wrap: wrap;
+				padding-bottom: 2rem;
+
+				@include breakpoint(tablet) {
+					flex-direction: row;
+				}
+
+				@include breakpoint(desktop) {
+					padding-bottom: 0;
+					width: 100%;
+				}
+
+				&-item {
+					width: 100%;
+					height: 100%;
+					position: relative;
+					transition: 0.2s ease-out;
+					padding: 1rem;
+					margin-bottom: 2rem;
+					border-radius: 7.5px;
+					border-bottom: 1px solid $black-extra-light;
+					border-top: 1px solid $black-extra-light;
+
+					@include breakpoint(desktop) {
+						width: 50%;
+						padding-bottom: 2rem;
+						border-bottom: none;
+						border-top: none;
+
+						&:nth-child(1n) {
+							padding-right: 1rem;
+						}
+
+						&:nth-child(2n) {
+							padding-left: 1rem;
+							//padding-right: 0;
+						}
+					}
+
+					img {
+						width: 100%;
+						height: 400px;
+						object-fit: cover;
+						border-radius: 5px;
+						filter: brightness(0.9);
+					}
+
+					&-content {
+						text-shadow: 0.25px 0.25px 0.25px rgba(0,0,0,0.4);
+						color: black;
+
+						&-review {
+							position: absolute;
+							top: 25px;
+							right: 25px;
+							width: 65px;
+							height: 35px;
+							background-color: white;
+							display: flex;
+							align-items: center;
+							justify-content: center;
+							gap: 0.5rem;
+							border-radius: 1.5px;
+
+							@include breakpoint(desktop) {
+								top: 30px;
+								right: 30px;
+							}
+
+							img {
+								width: 20px;
+								height: 20px;
+							}
+						}
+
+						&-text {
+							display: flex;
+							align-items: flex-start;
+							justify-content: space-between;
+							flex-direction: column;
+							gap: 2rem;
+
+							@include breakpoint(desktop) {
+								flex-direction: row;
+								gap: 0;
+							}
+
+							&-left {
+								display: flex;
+								flex-direction: column;
+								align-items: center;
+								justify-content: center;
+								width: 100%;
+
+								@include breakpoint(desktop) {
+									display: block;
+									width: 60%;
+								}
+
+								h3 {
+									margin: 0.5rem 0;
+									font-weight: 700;
+								}
+
+								&-location {
+									display: flex;
+									gap: 0.5rem;
+									align-items: center;
+									font-weight: 500;
+
+									img {
+										width: 25px;
+										height: 25px;
+									}
+								}
+
+								&-info {
+									display: flex;
+									align-items: center;
+									gap: 0.5rem;
+									opacity: 0.55;
+									margin-top: 0.85rem;
+
+									a {
+										color: black;
+										display: flex;
+										gap: 0.5rem;
+										align-items: center;
+									}
+
+									img {
+										width: 25px;
+										height: 25px;
+									}
+								}
+							}
+
+							&-right {
+								display: flex;
+								align-items: center;
+								justify-content: center;
+								width: 100%;
+
+								@include breakpoint(desktop) {
+									justify-content: flex-end;
+									width: 40%;
+								}
+
+								&-content {
+									display: flex;
+									width: fit-content;
+									align-items: center;
+									gap: 0.5rem;
+								}
+
+								p {
+
+									&:nth-child(2) {
+										margin: 0.2rem;
+										font-weight: 700;
+										text-shadow: 0.5px 0.5px 0.5px rgba(0,0,0,0.4);
+									}
+								}
+							}
+						}
+					}
+
+					&:hover {
+						transform: scale(1.01);
+						box-shadow: 1px 1px 5px 1.5px rgba(0,0,0,0.15);
+						-webkit-box-shadow: 1px 1px 5px 1.5px rgba(0,0,0,0.15);
+						-moz-box-shadow: 1px 1px 5px 1.5px rgba(0,0,0,0.15);
+					}
+				}
+			}
+
+			&-pagination {
+				padding-top: 4rem;
+				padding-bottom: 4rem;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
+				@include breakpoint(tablet){
+					padding-top: 7rem;
+				}
+
+				& .page-numbers {
+					display: flex;
+					justify-content: center;
+					align-content: center;
+					font-size: 1.8rem;
+				}
+			}
+		}
+	}
+
+	&__single {
+		padding-top: 100px;
+		overflow-x: hidden;
+
+		h1 {
+			padding-top: 14rem;
+			font-weight: 600;
+		}
+
+		&-content {
+
+			&-basic {
+				width: 100%;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				align-items: center;
+				margin-bottom: 1rem;
+
+				@include breakpoint(tablet) {
+					flex-direction: row;
+				}
+
+				&-left {
+					display: flex;
+					align-items: center;
+					flex-direction: column;
+					justify-content: center;
+					text-align: center;
+
+					@include breakpoint(tablet) {
+						display: unset;
+						text-align: unset;
+					}
+				}
+
+				&-right {
+					display: flex;
+					align-items: center;
+					gap: 0.35rem;
+					padding-top: 4rem;
+
+					@include breakpoint(tablet) {
+						padding-top: 14rem;
+					}
+
+					p {
+
+						&:nth-child(2) {
+							margin: 0.35rem;
+							padding-bottom: 0.25rem;
+							font-weight: 600;
+						}
+					}
+				}
+
+				&-location {
+					display: flex;
+					align-items: center;
+					gap: 0.25rem;
+					font-weight: 500;
+					padding-bottom: 1rem;
+				}
+			}
+
+			&-info {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: space-between;
+				gap: 1.5rem;
+				padding: 1rem 0;
+				border-top: 1px solid $black-light;
+				border-bottom: 1px solid $black-light;
+				opacity: 0.6;
+
+				@include breakpoint(tablet) {
+					flex-direction: row;
+					align-items: unset;
+				}
+
+				img {
+					width: 35px;
+					height: 35px;
+
+					@include breakpoint(tabletLandscape) {
+						width: 42.5px;
+						height: 42.5px;
+					}
+				}
+
+				&-left, &-right {
+					display: flex;
+					gap: 0.75rem;
+					flex-wrap: wrap;
+					align-items: center;
+					justify-content: center;
+
+					@include breakpoint(tabletLandscape) {
+						gap: 1.15rem;
+					}
+
+					&-item {
+						display: flex;
+						align-items: center;
+						gap: 0.5rem;
+					}
+				}
+			}
+
+			&-main {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				gap: 1rem;
+
+				@include breakpoint(tabletLandscape) {
+					flex-direction: row;
+					gap: 3rem;
+				}
+
+				&-content {
+					width: 100%;
+					height: 100%;
+
+					@include breakpoint(tabletLandscape) {
+						text-align: unset;
+						width: 60%;
+					}
+
+					& .text-center {
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						width: 100%;
+						text-align: center;
+						padding-right: 1rem;
+						padding-left: 2rem;
+
+						@include breakpoint(tabletLandscape) {
+							text-align: unset;
+							display: block;
+							padding-right: 0;
+							padding-left: 0;
+						}
+					}
+
+					&-rooms, .rentals__single-content-main-content-similar {
+						display: flex;
+						flex-direction: column;
+
+						article {
+							width: 100%;
+							height: 100%;
+							padding-bottom: 0;
+
+							& .rentals__items-container-item-content-text-right-content {
+
+								& .headline-3 {
+									font-family: "Mulish", "sans-serif";
+									font-size: 1.95rem;
+									font-weight: 500;
+									letter-spacing: 0.025rem;
+									line-height: 1.3;
+									word-wrap: break-word;
+									text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.4);
+									color: black;
+								}
+							}
+
+							& .rentals__items-container-item-content-text-left-info {
+
+								p {
+									color: black;
+								}
+
+								img {
+									width: 250px;
+									height: auto;
+								}
+							}
+						}
+					}
+
+					&-text {
+						padding-bottom: 2rem;
+
+						p {
+							display: flex;
+							align-items: center;
+							gap: 0.25rem;
+						}
+					}
+
+					h2 {
+						font-family: $didot;
+						font-size: 1.95rem;
+						font-weight: 500;
+						letter-spacing: 0.025rem;
+						line-height: 1.3;
+						word-wrap: break-word;
+						padding-top: 1rem;
+
+						@include breakpoint(tablet) {
+							padding-top: 2rem;
+						}
+					}
+
+					p {
+						color: $black-light;
+						font-family: $mulish;
+						font-size: 1rem;
+						font-weight: 400;
+						line-height: 1.7;
+						letter-spacing: 0.1rem;
+						word-wrap: break-word;
+
+						@include breakpoint(tablet) {
+							width: 90%;
+						}
+
+						@include breakpoint(tabletLandscape) {
+							width: 100%;
+						}
+					}
+
+					& .wp-block-button {
+						padding: 0;
+						margin: 1rem 0;
+						font-family: $mulish;
+						font-size: 1rem;
+						font-weight: 600;
+						line-height: 1.5;
+						letter-spacing: 0.1rem;
+						color: black;
+						word-wrap: break-word;
+						transition: 0.3s ease-out;
+						cursor: pointer;
+
+						a {
+							background-color: transparent;
+							color: black;
+							padding: 0.5rem 0.75rem;
+							border: 3px solid black;
+							border-radius: 0;
+							width: 100%;
+							display: inline-block;
+
+							&:hover {
+								color: white;
+							}
+						}
+
+						&:hover {
+							background-color: $yellow-main;
+							color: white;
+						}
+					}
+
+					&-reviews {
+						width: 100%;
+						height: auto;
+						display: flex;
+						flex-wrap: wrap;
+						gap: 2rem;
+						flex-direction: column;
+
+						@include breakpoint(tablet) {
+							flex-direction: row;
+						}
+
+						& .lc-rentals__reviews-display-container-text {
+							height: auto;
+
+							& .review-content-hidden {
+								display: none;
+
+								&.active {
+									display: block;
+									max-height: 100%;
+								}
+							}
+						}
+					}
+
+					&-text {
+						display: flex;
+						align-items: flex-start;
+						gap: 0.5rem;
+
+						p {
+							padding-top: 1rem;
+
+							@include breakpoint(tablet) {
+								padding-top: 2rem;
+							}
+						}
+					}
+				}
+
+				&-calendar {
+					width: 100%;
+					height: 100%;
+
+					& .wpbs-form-field-consent {
+
+						a {
+							color: $black-light;
+							text-decoration: underline;
+							font-style: italic;
+						}
+					}
+
+					@include breakpoint(desktop) {
+						width: 40%;
+					}
+
+					& .wpbs_s-search-widget {
+						margin-top: 3rem;
+					}
+
+					& .wpbs_s-search-widget .wpbs_s-search-widget-form .wpbs_s-search-widget-field button.wpbs_s-search-widget-datepicker-submit, .wpbs_s-search-widget .wpbs_s-search-widget-form .wpbs_s-search-widget-field input[type="submit"] {
+						background-color: $orange-dark!important;
+						transition: 0.3s ease-out;
+
+						&:hover {
+							background-color: $yellow-dark!important;
+						}
+					}
+				}
+			}
+		}
+
+		& .lc-carousel {
+			//margin-top: calc(100px - 4rem);
+			width: 100%;
+			height: 100%;
+
+			@include breakpoint(tabletLandscape) {
+				margin-top: 0;
+			}
+
+			&.active {
+				margin-top: 0;
+			}
+
+			&__container {
+
+				&-sliders {
+					min-height: 500px;
+
+					@include breakpoint(desktop) {
+						height: calc(100vh - 150px);
+					}
+
+					&-slide {
+
+						&.active {
+							display: block !important;
+						}
+
+						img {
+							min-height: 500px;
+							filter: brightness(0.8);
+							width: 100%;
+
+							@include breakpoint(desktop) {
+								height: calc(100vh - 150px);
+							}
+						}
+					}
+				}
+			}
+		}
+
+		& .dots-slider {
+			display: flex;
+			top: calc(100% + 85px);
+			left: 0;
+			width: fit-content;
+			//width: calc(1200vw + 1180px);
+			height: auto;
+			transition: 8s ease-out;
+
+			//@include breakpoint(phoneLandscape) {
+			//	width: calc(700vw + 1180px);
+			//}
+			//
+			//@include breakpoint(tabletLandscape) {
+			//	width: calc(600vw + 1180px);
+			//}
+			//
+			//@include breakpoint(desktop) {
+			//	//width: calc(300vw + 1180px);
+			//	width: fit-content;
+			//}
+
+			&-btn {
+				transition: 0.6s ease-out;
+
+				&:hover {
+					background-color: $black-extra-light;
+
+					&.low-opacity {
+						background-color: transparent !important;
+					}
+				}
+
+				@include breakpoint(tablet) {
+					width: 50px;
+					height: 50px;
+				}
+
+				@include breakpoint(desktop) {
+					width: 50px;
+					height: 50px;
+				}
+			}
+
+			& .lc-carousel__nav-dot {
+				width: 150px;
+				height: 150px;
+				border-radius: 0;
+
+				img {
+					width: 150px;
+					height: 150px;
+					border: 3px solid white;
+					display: flex;
+					align-items: center;
+					filter: brightness(0.9);
+				}
+
+				&.active {
+					animation-name: dots-slider-active-animation;
+					animation-duration: 0.4s;
+					animation-fill-mode: forwards;
+					background-color: transparent;
+					border: 5px solid $orange-dark;
+
+					img {
+						width: 150px;
+						height: 140px;
+					}
+
+				}
+			}
+		}
+
+		& .lc-carousel__btn {
+			top: calc(100% - 50px);
+
+			@include breakpoint(tablet) {
+				top: 50%;
+				transform: translateY(-50%);
+			}
+
+			button {
+				width: 50px;
+				height: 50px;
+				transition: 0.3s ease-out;
+
+				@include breakpoint(desktop) {
+					width: 60px;
+					height: 60px;
+				}
+			}
+
+			img {
+				width: 50px;
+				height: 50px;
+				transition: 0.6s ease-out;
+
+				&:hover {
+					background-color: $black-extra-light;
+					transform: scale(1.1);
+				}
+
+				@include breakpoint(desktop) {
+					width: 60px;
+					height: 60px;
+				}
+			}
+
+			&-left {
+				left: 0;
+
+				@include breakpoint(tablet) {
+					left: -60px;
+				}
+
+				@include breakpoint(tabletLandscape) {
+					left: -70px;
+				}
+			}
+
+			&-right {
+				right: 0;
+
+				@include breakpoint(tablet) {
+					right: -60px;
+				}
+
+				@include breakpoint(tabletLandscape) {
+					right: -70px;
+				}
+			}
+		}
+
+		& .wpbs-payment-confirmation-stripe-form {
+			padding-bottom: 4rem !important;
+		}
+
+		& .wpbs-form-field-payment_method {
+
+			& .wpbs-form-field-input {
+				display: flex;
+				flex-direction: column;
+				gap: 0.35rem;
+
+			}
+		}
+
+		& .wpbs_s-search-widget {
+			width: 100%;
+
+			& .wpbs_s-search-widget-form-wrap {
+				width: 100% !important;
+			}
+
+			& .wpbs_s-search-widget-results-wrap {
+				margin-bottom: 3rem!important;
+				width: 100% !important;
+			}
+
+			form {
+				display: flex;
+				flex-direction: column;
+
+				& .wpbs_s-search-widget-field-submit {
+					position: inherit!important;
+				}
+			}
+
+			& .wpbs_s-search-widget-results {
+				display: flex!important;
+				flex-direction: column!important;
+			}
+		}
+	}
+}
+
+.lc-rentals__reviews {
+	position: fixed;
+	z-index: 1000;
+	inset: 0 0 0 0;
+	background-color: rgba(255, 255, 255, 0.975);
+	overflow-y: scroll;
+
+	h2 {
+		margin-top: 50px;
+		text-align: center;
+	}
+
+	&-container {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		border: 10px solid $black-extra-light;
+		padding: 0 1.5rem;
+
+		input, textarea {
+			width: calc(100vw - 100px);
+			border: 1px solid $black-extra-light;
+			padding: 0.5rem 0.25rem;
+			outline: none !important;
+			background-color: $black-extra-light;
+
+			@include breakpoint(phoneLandscape) {
+				width: 100%;
+			}
+
+			@include breakpoint(tablet) {
+				width: fit-content;
+			}
+
+			&#author, &#email {
+
+				@include breakpoint(tablet) {
+					width: 55%;
+				}
+			}
+		}
+
+		@include breakpoint(tabletLandscape) {
+			flex-direction: row;
+			gap: 3rem;
+		}
+
+		& .form-submit {
+
+			input {
+				width: 100%;
+				padding: 1rem;
+
+				@include breakpoint(phone) {
+					width: fit-content;
+					padding: 1rem 3.5rem;
+				}
+			}
+
+		}
+
+		&-image {
+			width: 100%;
+			height: 100%;
+			padding-top: 1rem;
+
+			@include breakpoint(tabletLandscape) {
+				width: 35%;
+			}
+
+			p {
+				margin: 0.25rem 0;
+			}
+
+			img {
+				height: 350px;
+				width: 100%;
+				object-fit: cover;
+				filter: brightness(0.7);
+
+				@include breakpoint(tablet) {
+					height: 450px;
+				}
+
+				@include breakpoint(tabletLandscape) {
+					height: 750px;
+				}
+			}
+		}
+
+		&-location {
+			display: flex;
+			gap: 0.25rem;
+			align-items: center;
+			font-weight: 500;
+			padding-bottom: 0.75rem;
+			margin: 0 -0.25rem;
+
+			p {
+				width: fit-content;
+			}
+
+			img {
+				width: 25px;
+				height: 25px;
+			}
+		}
+
+		&-form {
+			display: flex;
+			flex-direction: column;
+			width: 100%;
+
+			@include breakpoint(tabletLandscape) {
+				width: 65%;
+			}
+
+			& #ea_rentals_review_image {
+				width: available;
+			}
+		}
+	}
+}
+
+.lc-rentals__reviews-comments-rating {
+	border: none;
+
+	input {
+		opacity: 0;
+	}
+
+	&-container {
+		display: flex;
+
+		input {
+			width: unset;
+		}
+
+		& .star {
+			display: inline-block;
+			font-size: 2.5rem;
+			transform: translateX(-20px);
+			background-color: unset;
+			color: #E4A853;
+			cursor: pointer;
+
+			@include breakpoint(phone) {
+				font-size: 3rem;
+			}
+
+			@include breakpoint(phoneLandscape) {
+				font-size: 4rem;
+			}
+		}
+	}
+}
+
+.lc-rentals__reviews-display {
+	padding-bottom: 2rem;
+	width: 100%;
+
+	@include breakpoint(tablet) {
+		width: calc(50% - 2rem);
+	}
+
+	&-container {
+
+		&-info {
+			display: flex;
+			gap: 2rem;
+
+			&-image {
+				width: 55px;
+				height: 100%;
+
+				img {
+					width: 55px;
+					height: 55px;
+					border-radius: 25%;
+					object-fit: cover;
+					object-position: center;
+				}
+			}
+
+			&-text {
+				display: flex;
+				flex-direction: column;
+				align-items: flex-start;
+				gap: 0.25rem;
+				width: calc(100% - 55px - 2rem);
+				height: auto;
+
+				h3, p {
+					margin: 0;
+					word-break: break-word;
+					text-align: start;
+				}
+
+				h3 {
+					margin-top: -0.75rem;
+				}
+
+				&-stars {
+					display: flex;
+					align-items: center;
+					gap: 0.25rem;
+
+					p {
+						color: $yellow-star;
+						padding-right: 0.5rem;
+						padding-top: 0.1rem;
+						font-size: 1.1rem;
+					}
+				}
+			}
+		}
+	}
+}
+
+.term-4, .term-5, .term-6, .term-7 {
+
+	& .menu-item-498, & .menu-item-425 {
+
+		> a {
+			color: $yellow-dark !important;
+
+			span {
+				position: absolute;
+				bottom: -25%;
+				left: 10px;
+				width: 100%;
+				height: 5px;
+				background-color: $yellow-dark;
+				animation-name: border-bottom-link;
+				animation-duration: 0.6s;
+				display: block;
+			}
+		}
+	}
+}
+
+.single-lc-rentals {
+
+	& .menu-item-498, & .menu-item-497, & .menu-item-425 {
+
+		> a {
+			color: $yellow-dark !important;
+
+			span {
+				position: absolute;
+				bottom: -25%;
+				left: 10px;
+				width: 100%;
+				height: 5px;
+				background-color: $yellow-dark;
+				animation-name: border-bottom-link;
+				animation-duration: 0.6s;
+				display: block;
+			}
+		}
+	}
+}
+
+.read-more-review-button {
+	font-family: $mulish;
+	font-size: 1rem;
+	font-weight: 600;
+	line-height: 1.5;
+	letter-spacing: 0.1rem;
+	word-wrap: break-word;
+	transition: 0.3s ease-out;
+	cursor: pointer;
+	background-color: transparent;
+	color: black;
+	padding: 0.5rem 0.75rem;
+	border: 3px solid black;
+	border-radius: 0;
+	width: 60%;
+	display: inline-block;
+
+	&:hover {
+		background-color: $yellow-main;
+		color: white;
+	}
+}
+
+.wp-block-group {
+	background-color: white !important;
+
+	&.content--hidden {
+		display: none;
+		opacity: 0;
+		animation-fill-mode: forwards;
+		animation-name: content;
+		animation-duration: 0.4s;
+
+		&.active {
+			display: block;
+			opacity: 1;
+		}
+	}
+}
+
+.wp-block-buttons {
+	width: 100%;
+	justify-content: center;
+
+	@include breakpoint(tabletLandscape) {
+		width: fit-content !important;
+		justify-content: unset;
+	}
+}
+
+#submit_ea_rentals_review_image {
+	background-color: $orange-dark;
+	color: white;
+	cursor: pointer;
+	padding: 0.75rem;
+	transition: 0.3s ease-out;
+
+	&:hover {
+		background-color: $yellow-dark;
+	}
+}
+
+// Make iframe responsive
+.iframe-responsive {
+	overflow: hidden;
+	/* 16:9 aspect ratio */
+	padding-top: 56.25%;
+	position: relative;
+
+	iframe {
+		border: 0;
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+}
+
+.wpbs-form-field-input, .wpbs-select-container {
+
+	select {
+		outline: none !important;
+	}
+}
+
+#ui-datepicker-div {
+
+	select {
+		outline: none !important;
+	}
+}
+
+.wp-block-separator {
+	color: $black-extra-light;
+}
+
+.wpbs-container {
+	padding-top: 2rem;
+}
+
+.wpbs-form-selected-dates {
+	padding-bottom: 2rem;
+
+	& .wpbs-form-field-input {
+		color: $blue-main;
+	}
+}
+
+.wpbs-form-field-phone {
+	padding-bottom: 4rem!important;
+}
+
+.wpbs-form-selected-date {
+
+	& .wpbs-form-field-label {
+		font-weight: 700;
+		font-size: 1.1rem;
+		padding-bottom: 0.5rem !important;
+	}
+}
+
+.wpbs-form-field-html, .wpbs-form-field-html {
+	font-weight: 700;
+	font-size: 1.1rem;
+	padding-bottom: 2rem !important;
+}
+
+.wpbs-form-field-payment_method, .wpbs-form-field-consent, .wpbs-form-field-1-12 {
+	padding-top: 2rem !important;
+
+	label {
+		font-weight: 700;
+		font-size: 1.1rem;
+	}
+
+	& .wpbs-form-field-input {
+		padding-top: 2rem !important;
+
+		label {
+
+			input[type='checkbox'] {
+				transform: scale(1.5);
+			}
+
+			a {
+				padding-left: 0.25rem !important;
+				text-decoration: underline;
+				color: $black-light;
+			}
+		}
+	}
+}
+
+.wpbs-form-field-1-12 {
+	padding-bottom: 3.5rem !important;
+}
+
+.wpbs-total-price {
+
+	table {
+		width: 100% !important;
+	}
+
+	thead {
+
+		tr {
+
+			th {
+
+				&:nth-child(1) {
+					text-align: left !important;
+				}
+
+				&:nth-child(2) {
+					text-align: right !important;
+				}
+			}
+		}
+	}
+
+	& .wpbs-line-item-total, .wpbs-second-payment {
+		background-color: lightgrey;
+		font-weight: 600;
+		color: black;
+	}
+}
+
+.wpbs-first-payment {
+	font-weight: 700 !important;
+}
+
+.wpbs-price {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.wpbs-line-item-quantity {
+	font-weight: 700;
+	color: black;
+}
+
+.wpbs-form-field-consent {
+	padding-bottom: 2rem !important;
+
+	& .wpbs-form-field-input {
+		display: flex;
+		flex-direction: column;
+		gap: 0.75rem;
+	}
+
+	& .wpbs-payment-method-label {
+		font-size: 1.1rem;
+
+		input {
+			transform: scale(1.25);
+		}
+	}
+}
+
+.wpbs-form-field-text, .wpbs-form-field-email, .wpbs-form-field-phone, .wpbs-form-field-textarea, .wpbs-form-field-number {
+	font-weight: 500;
+
+	& .wpbs-form-field-label {
+		padding-bottom: 0.5rem;
+	}
+
+	input {
+		width: 80% !important;
+		outline: none !important;
+		border: 1px solid lightgrey;
+		padding: 0.25rem 0;
+	}
+}
+
+.wpbs-form-field-part-payment-applicability {
+	padding: 2rem 0 !important;
+
+	label {
+		font-size: 1.1rem;
+		font-weight: 700;
+	}
+
+	select {
+		width: 95% !important;
+		background-color: transparent;
+		border: 1px solid lightgrey;
+		padding: 0.5rem 0.25rem;
+		margin-top: 0.5rem !important;
+		color: $black-light;
+	}
+}
+
+.wpbs-form-field-textarea {
+
+	& .wpbs-form-field-input {
+
+		textarea {
+			width: 80% !important;
+			height: 150px;
+			outline: none !important;
+			border: 1px solid lightgrey;
+		}
+	}
+}
+
+.wpbs-pricing-table {
+
+	tr {
+		font-weight: 500;
+	}
+
+	td {
+		padding: 0.5rem 0.25rem !important;
+		text-shadow: 0.25px 0.25px 0.25px rgba(0,0,0,0.4) !important;
+		//color: $black-light;
+	}
+}
+
+.wpbs-pricing-table-events, .wpbs-line-item-part-payments {
+	color: $black-light;
+}

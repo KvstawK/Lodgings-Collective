@@ -1,0 +1,33 @@
+@import '~normalize-scss/sass/normalize/import-now';
+
+// base
+@import 'base/baseline';
+@import 'base/variables';
+@import "base/mixins";
+@import 'base/wp';
+
+// components
+@import "components/header";
+@import "components/footer";
+@import "components/page-banner";
+@import "components/lc-slider";
+@import "components/lc-contact-forms";
+@import "components/lc-rentals";
+@import "components/faq";
+@import "components/testimonials";
+
+// pages
+@import 'pages/home';
+@import 'pages/rentals';
+@import 'pages/book';
+@import 'pages/villas-apartments';
+@import 'pages/services';
+@import 'pages/contact';
+@import 'pages/blog';
+
+// partials
+@import 'partials/typography';
+@import 'partials/helpers';
+@import 'partials/container';
+@import 'partials/buttons';
+@import 'partials/animations';

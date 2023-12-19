@@ -1,0 +1,40 @@
+{
+  "description": "Lodgings Collective website theme",
+  "keywords": ["WordPress", "Theme"],
+  "homepage": "https://www.lodgingscollective.com",
+  "license": "GPL-3.0",
+  "version": "4.0.0",
+  "authors": [
+	{
+	  "name": "Lodgings Collective",
+	  "email": "info@lodgingscollective.com",
+	  "homepage": "https://www.lodgingscollective.com",
+	  "role": "Developer"
+	}
+  ],
+  "require": {
+	"vlucas/phpdotenv": "^5.2"
+  },
+  "require-dev": {
+	"roave/security-advisories": "dev-master",
+	"php-parallel-lint/php-parallel-lint": "^1.2",
+	"phpcompatibility/phpcompatibility-wp": "^2.1",
+	"dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+	"wp-coding-standards/wpcs": "^2.3",
+	"wptrt/wpthemereview": "^0.2.1"
+  },
+  "autoload": {
+	"psr-4": { "RC\\": "./" }
+  },
+  "scripts": {
+	"test": ["@phpcs", "@parallel-lint"],
+	"phpcs": "phpcs -d memory_limit=-1 --extensions=php",
+	"phpcbf": "vendor/bin/phpcbf . --extensions=php",
+	"parallel-lint": "parallel-lint --blame --exclude vendor/ ."
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.wpbs-tab-sms-notifications .wpbs-email-tag--all-fields,
+.wpbs-tab-sms-notifications .wpbs-email-tag--bank-transfer-instructions,
+.wpbs-tab-sms-notifications .wpbs-email-tag--order-details {display:none !important}
+
+#wpbs-booking-details-modal-inner .wpbs-tab-sms table {border-collapse: collapse; width:100%; margin-top: 20px;}
+#wpbs-booking-details-modal-inner .wpbs-tab-sms table th,
+#wpbs-booking-details-modal-inner .wpbs-tab-sms table td {border:1px solid #ddd; line-height:20px; padding:10px; vertical-align: top; text-align:left;}
+
+#wpbs-booking-details-modal-inner .wpbs-tab-sms .wpbs-sms-success {color:#23b100}
+#wpbs-booking-details-modal-inner .wpbs-tab-sms .wpbs-sms-error {color:#cf2e2e}
+
+#reminder_sms_notification_when_to_send,
+#follow_up_sms_notification_when_to_send {max-width:210px;}
+
+#twilio_test_number {max-width:200px;}

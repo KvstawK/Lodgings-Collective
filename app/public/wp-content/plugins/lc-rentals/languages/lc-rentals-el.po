@@ -1,0 +1,820 @@
+# Copyright (C) 2023 e.adjustments
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: LC Rentals 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/lc-rentals\n"
+"POT-Creation-Date: 2023-05-27T15:14:59+00:00\n"
+"PO-Revision-Date: 2023-05-27 18:15+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: el_GR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Domain: lc-rentals\n"
+
+#. Plugin Name of the plugin
+msgid "LC Rentals"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://www.example.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "A rental management plugin for WordPress, created by Lodgings Collective"
+msgstr ""
+"Ένα πρόσθετο διαχείρισης ενοικιαζόμενων για το WordPress, δημιουργήθηκε από "
+"το Lodgings Collective"
+
+#. Author of the plugin
+msgid "Rental Collective"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://rentalscollective.com/"
+msgstr ""
+
+#: datepicker/lc-datepicker-check-in.php:3
+#: datepicker/lc-datepicker-check-in.php:4
+#: views/lc-rentals-search-shortcode.php:43
+#: views/lc-rentals-search-shortcode.php:44
+msgid "Check-in"
+msgstr "Άφιξη"
+
+#: datepicker/lc-datepicker-check-in.php:4
+#: datepicker/lc-datepicker-check-in.php:5
+#: views/lc-rentals-search-shortcode.php:44
+#: views/lc-rentals-search-shortcode.php:45
+msgid "Choose check-in date"
+msgstr "Επιλέξτε ημερομηνία άφιξης"
+
+#: datepicker/lc-datepicker-check-in.php:7
+#: datepicker/lc-datepicker-check-out.php:7
+#: views/lc-rentals-search-shortcode.php:47
+#: views/lc-rentals-search-shortcode.php:131
+msgid "Previous month"
+msgstr "Προηγούμενος μήνας"
+
+#: datepicker/lc-datepicker-check-in.php:9
+#: datepicker/lc-datepicker-check-out.php:9
+#: views/lc-rentals-search-shortcode.php:49
+#: views/lc-rentals-search-shortcode.php:133
+msgid "Next month"
+msgstr "Επόμενος μήνας"
+
+#: datepicker/lc-datepicker-check-in.php:15
+#: datepicker/lc-datepicker-check-out.php:15
+#: views/lc-rentals-search-shortcode.php:55
+#: views/lc-rentals-search-shortcode.php:139
+msgid "Sunday"
+msgstr "Κυριακή"
+
+#: datepicker/lc-datepicker-check-in.php:16
+#: datepicker/lc-datepicker-check-out.php:16
+#: views/lc-rentals-search-shortcode.php:56
+#: views/lc-rentals-search-shortcode.php:140
+msgid "Monday"
+msgstr "Δευτέρα"
+
+#: datepicker/lc-datepicker-check-in.php:17
+#: datepicker/lc-datepicker-check-out.php:17
+#: views/lc-rentals-search-shortcode.php:57
+#: views/lc-rentals-search-shortcode.php:141
+msgid "Tuesday"
+msgstr "Τρίτη"
+
+#: datepicker/lc-datepicker-check-in.php:18
+#: datepicker/lc-datepicker-check-out.php:18
+#: views/lc-rentals-search-shortcode.php:58
+#: views/lc-rentals-search-shortcode.php:142
+msgid "Wednesday"
+msgstr "Τετάρτη"
+
+#: datepicker/lc-datepicker-check-in.php:19
+#: datepicker/lc-datepicker-check-out.php:19
+#: views/lc-rentals-search-shortcode.php:59
+#: views/lc-rentals-search-shortcode.php:143
+msgid "Thursday"
+msgstr "Πέμπτη"
+
+#: datepicker/lc-datepicker-check-in.php:20
+#: datepicker/lc-datepicker-check-out.php:20
+#: views/lc-rentals-search-shortcode.php:60
+#: views/lc-rentals-search-shortcode.php:144
+msgid "Friday"
+msgstr "Παρασκευή"
+
+#: datepicker/lc-datepicker-check-in.php:21
+#: datepicker/lc-datepicker-check-out.php:21
+#: views/lc-rentals-search-shortcode.php:61
+#: views/lc-rentals-search-shortcode.php:145
+msgid "Saturday"
+msgstr "Σάββατο"
+
+#: datepicker/lc-datepicker-check-out.php:3
+#: datepicker/lc-datepicker-check-out.php:4
+#: views/lc-rentals-search-shortcode.php:127
+#: views/lc-rentals-search-shortcode.php:128
+msgid "Check-out"
+msgstr "Αναχώρηση"
+
+#: datepicker/lc-datepicker-check-out.php:4
+#: datepicker/lc-datepicker-check-out.php:5
+#: views/lc-rentals-search-shortcode.php:128
+#: views/lc-rentals-search-shortcode.php:129
+msgid "Choose check-out date"
+msgstr "Επιλέξτε ημερομηνία αναχώρησης"
+
+#: inc/class.lc-rentals-cpt.php:14
+msgctxt "Post type general name"
+msgid "LC Rentals"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:15
+msgctxt "Post type singular name"
+msgid "LC Rental"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:16
+msgctxt "Admin Menu text"
+msgid "LC Rentals"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:17
+msgctxt "Add New on Toolbar"
+msgid "LC Rentals"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:18
+msgid "Add New"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:19
+msgid "Add New LC Rental"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:20
+msgid "New LC Rental"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:21
+msgid "New LC Rental Name"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:22
+msgid "Edit LC Rental"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:23
+msgid "Update LC Rental"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:24 inc/class.lc-rentals-cpt.php:25
+msgid "View LC Rental"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:26
+msgid "All LC Rentals"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:27
+msgid "Search LC Rentals"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:28
+msgid "Parent LC Rental"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:29
+msgid "Parent LC Rental:"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:30
+msgid "No LC Rental found."
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:31
+msgid "No LC Rental found in Trash."
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:32
+msgctxt ""
+"Overrides the “Featured Image” phrase for this post type. Added in 4.3"
+msgid "LC Rental Image"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:33
+msgctxt ""
+"Overrides the “Set featured image” phrase for this post type. Added in 4.3"
+msgid "Set LC Rental image"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:34
+msgctxt ""
+"Overrides the “Remove featured image” phrase for this post type. Added in 4.3"
+msgid "Remove LC Rental image"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:35
+msgctxt ""
+"Overrides the “Use as featured image” phrase for this post type. Added in 4.3"
+msgid "Use as LC Rental image"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:36
+msgctxt ""
+"The post type archive label used in nav menus. Default “Post Archives”. "
+"Added in 4.4"
+msgid "LC Rental archives"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:37
+msgctxt ""
+"Overrides the “Insert into post”/”Insert into page” phrase (used when "
+"inserting media into a post). Added in 4.4"
+msgid "Insert into LC Rental item"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:38
+msgctxt ""
+"Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used "
+"when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this LC Rental"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:39
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter LC Rentals list"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:40
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "LC Rentals list navigation"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:41
+msgctxt ""
+"Screen reader text for the list heading on the post type listing screen. "
+"Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "LC Rentals list"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:61
+msgctxt "Post type general name"
+msgid "LC Rentals Category"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:62
+msgctxt "Post type singular name"
+msgid "LC Rental Category"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:63
+msgid "All LC Rentals Categories"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:64
+msgid "Search LC Rentals Categories"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:65
+msgid "Parent LC Rental Category"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:66
+msgid "Parent LC Rental Category:"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:67
+msgid "Edit LC Rentals Category"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:68
+msgid "Update LC Rentals Category"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:69
+msgid "Add New LC Rentals Category"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:70
+msgid "New LC Rentals Category Name"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:71
+msgid "LC Rentals Categories"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:86
+msgctxt "Post type general name"
+msgid "LC Rentals Location"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:87
+msgctxt "Post type singular name"
+msgid "LC Rental Location"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:88
+msgid "All LC Rentals Locations"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:89
+msgid "Search LC Rentals Locations"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:90
+msgid "Parent LC Rental Location"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:91
+msgid "Parent LC Rental Location:"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:92
+msgid "Edit LC Rentals Location"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:93
+msgid "Update LC Rentals Location"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:94
+msgid "Add New LC Rentals Location"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:95
+msgid "New LC Rentals Location Name"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:96
+msgid "LC Rentals Locations"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:114
+msgid "LC Rental Info"
+msgstr ""
+
+#: inc/class.lc-rentals-cpt.php:130
+msgid "Number Of Guests: "
+msgstr "Αριθμός Επισκεπτών: "
+
+#: inc/class.lc-rentals-cpt.php:131 inc/class.lc-rentals-cpt.php:135
+#: inc/class.lc-rentals-cpt.php:139 inc/class.lc-rentals-cpt.php:143
+#: inc/class.lc-rentals-cpt.php:147 inc/class.lc-rentals-cpt.php:151
+msgid "Enter a number"
+msgstr "Εισάγετε έναν αριθμό"
+
+#: inc/class.lc-rentals-cpt.php:134
+msgid "Number Of Double Beds: "
+msgstr "Αριθμός Διπλών Κρεβατιών: "
+
+#: inc/class.lc-rentals-cpt.php:138
+msgid "Number Of Single Beds: "
+msgstr "Αριθμός Μονών Κρεβατιών: "
+
+#: inc/class.lc-rentals-cpt.php:142
+msgid "Number Of Bathrooms: "
+msgstr "Αριθμός Λουτρών: "
+
+#: inc/class.lc-rentals-cpt.php:146
+msgid "Square meters: "
+msgstr "Τετραγωνικά μέτρα: "
+
+#: inc/class.lc-rentals-cpt.php:150
+msgid "Price: "
+msgstr "Τιμή: "
+
+#: inc/class.lc-rentals-cpt.php:156
+msgid "Essentials: "
+msgstr "Βασική: "
+
+#: inc/class.lc-rentals-cpt.php:163
+msgid "Swimming-pool: "
+msgstr "Πισίνα: "
+
+#: inc/class.lc-rentals-cpt.php:170
+msgid "Gym: "
+msgstr "Γυμναστήριο: "
+
+#: inc/class.lc-rentals-cpt.php:177
+msgid "Kids friendly: "
+msgstr "Φιλικό Προς Τα Παιδιά: "
+
+#: inc/class.lc-rentals-cpt.php:184
+msgid "Jacuzzi: "
+msgstr "Τζακούζι: "
+
+#: inc/class.lc-rentals-cpt.php:191
+msgid "Air Conditioning: "
+msgstr "Κλιματισμός: "
+
+#: inc/class.lc-rentals-cpt.php:198
+msgid "Cleaning Products: "
+msgstr "Καθαριστικά: "
+
+#: inc/class.lc-rentals-cpt.php:205
+msgid "Cooking Basics: "
+msgstr "Βασικά Μαγειρικής: "
+
+#: inc/class.lc-rentals-cpt.php:212
+msgid "Dedicated Workspace: "
+msgstr "Χώρος Εργασίας: "
+
+#: inc/class.lc-rentals-cpt.php:219
+msgid "Garden: "
+msgstr "Κήπος: "
+
+#: inc/class.lc-rentals-cpt.php:226
+msgid "Mountain View: "
+msgstr "Θέα στο Βουνό: "
+
+#: inc/class.lc-rentals-cpt.php:233
+msgid "Dishes And Utensils: "
+msgstr "Πιάτα Και Σκεύη: "
+
+#: inc/class.lc-rentals-cpt.php:240
+msgid "Clothes Dryer: "
+msgstr "Στεγνωτήριο Ρούχων: "
+
+#: inc/class.lc-rentals-cpt.php:247
+msgid "Washing Machine: "
+msgstr "Πλυντήριο Ρούχων: "
+
+#: inc/class.lc-rentals-cpt.php:254
+msgid "Drying Rack: "
+msgstr "Απλώστρα Ρούχων: "
+
+#: inc/class.lc-rentals-cpt.php:261
+msgid "Hair Dryer: "
+msgstr "Πιστολάκι Για Μαλλιά: "
+
+#: inc/class.lc-rentals-cpt.php:268
+msgid "Heater: "
+msgstr "Θέρμανση: "
+
+#: inc/class.lc-rentals-cpt.php:275
+msgid "Kitchen: "
+msgstr "Κουζίνα: "
+
+#: inc/class.lc-rentals-cpt.php:282
+msgid "Electric Stove: "
+msgstr "Ηλεκτρική Κουζίνα: "
+
+#: inc/class.lc-rentals-cpt.php:289
+msgid "Oven: "
+msgstr "Φούρνος: "
+
+#: inc/class.lc-rentals-cpt.php:296
+msgid "Hot Water Kettle: "
+msgstr "Βραστήρας νερού: "
+
+#: inc/class.lc-rentals-cpt.php:303
+msgid "Refrigerator: "
+msgstr "Ψυγείο: "
+
+#: inc/class.lc-rentals-cpt.php:310
+msgid "Microwave: "
+msgstr "Φούρνος μικροκυμάτων: "
+
+#: inc/class.lc-rentals-cpt.php:317
+msgid "TV: "
+msgstr "Τηλεόραση: "
+
+#: inc/class.lc-rentals-cpt.php:324
+msgid "HDTV With Netflix: "
+msgstr "HDTV με Netflix: "
+
+#: inc/class.lc-rentals-cpt.php:331
+msgid "Books & Reading Materials: "
+msgstr "Βιβλία και υλικό ανάγνωσης: "
+
+#: inc/class.lc-rentals-cpt.php:338
+msgid "Fireplace: "
+msgstr "Τζάκι: "
+
+#: inc/class.lc-rentals-cpt.php:345
+msgid "Dishwasher: "
+msgstr "Πλυντήριο πιάτων: "
+
+#: inc/class.lc-rentals-cpt.php:352
+msgid "WiFi: "
+msgstr "Ίντερνετ: "
+
+#: inc/class.lc-rentals-cpt.php:359
+msgid "Bathtub: "
+msgstr "Μπανιέρα: "
+
+#: inc/class.lc-rentals-cpt.php:366
+msgid "Shower: "
+msgstr "Ντουζ: "
+
+#: inc/class.lc-rentals-cpt.php:373
+msgid "Hot Water: "
+msgstr "Ζεστό νερό: "
+
+#: inc/class.lc-rentals-cpt.php:380
+msgid "Outdoor Shower: "
+msgstr "Εξωτερικό ντους: "
+
+#: inc/class.lc-rentals-cpt.php:387
+msgid "Hammock: "
+msgstr "Κρεβάτι αιώρα: "
+
+#: inc/class.lc-rentals-cpt.php:394
+msgid "BBQ: "
+msgstr "Ψησταριά: "
+
+#: inc/class.lc-rentals-cpt.php:401
+msgid "Shampoo & Soap: "
+msgstr "Σαμπουάν και Σαπούνι: "
+
+#: inc/class.lc-rentals-cpt.php:408
+msgid "Hangers: "
+msgstr "Κρεμάστρες: "
+
+#: inc/class.lc-rentals-cpt.php:415
+msgid "Clothing Storage: "
+msgstr "Αποθήκευση Ρούχων: "
+
+#: inc/class.lc-rentals-cpt.php:422
+msgid "Iron: "
+msgstr "Σίδερο Ρούχων: "
+
+#: inc/class.lc-rentals-cpt.php:429
+msgid "Safe Box: "
+msgstr "Χρηματοκιβώτιο: "
+
+#: inc/class.lc-rentals-reviews.php:25
+msgid "How would you rate your accommodation in "
+msgstr "Πώς θα αξιολογούσατε τη διαμονή σας στο "
+
+#: inc/class.lc-rentals-reviews.php:31
+msgid "Rate your staying with "
+msgstr "Βαθμολογήστε τη διαμονή σας με "
+
+#: inc/class.lc-rentals-reviews.php:31
+msgid " points"
+msgstr " βαθμούς"
+
+#: views/lc-rentals-facilities-shortcode.php:5
+#: views/lc-rentals-facilities-shortcode.php:7
+msgid "Essentials (Towels, bed sheets, soap, toilet paper, and pillows)"
+msgstr ""
+"Είδη πρώτης ανάγκης (πετσέτες, σεντόνια, σαπούνι, χαρτί υγείας και μαξιλάρια)"
+
+#: views/lc-rentals-facilities-shortcode.php:11
+#: views/lc-rentals-facilities-shortcode.php:13
+msgid "Gym"
+msgstr "Γυμναστήριο"
+
+#: views/lc-rentals-facilities-shortcode.php:17
+msgid "Swimming-pool"
+msgstr "Πισίνα"
+
+#: views/lc-rentals-facilities-shortcode.php:19
+msgid "Private Swimming-pool"
+msgstr "Ιδιωτική Πισίνα"
+
+#: views/lc-rentals-facilities-shortcode.php:23
+#: views/lc-rentals-facilities-shortcode.php:25
+msgid "Kids Friendly"
+msgstr "Φιλικό Προς Τα Παιδιά"
+
+#: views/lc-rentals-facilities-shortcode.php:29
+#: views/lc-rentals-facilities-shortcode.php:31
+msgid "Jacuzzi"
+msgstr "Τζακούζι"
+
+#: views/lc-rentals-facilities-shortcode.php:35
+#: views/lc-rentals-facilities-shortcode.php:37
+msgid "Air Conditioning"
+msgstr "Κλιματισμός"
+
+#: views/lc-rentals-facilities-shortcode.php:41
+#: views/lc-rentals-facilities-shortcode.php:43
+msgid "Ceiling Fan"
+msgstr "Ανεμιστήρας οροφής"
+
+#: views/lc-rentals-facilities-shortcode.php:47
+#: views/lc-rentals-facilities-shortcode.php:49
+msgid "Cleaning Products"
+msgstr "Καθαριστικά"
+
+#: views/lc-rentals-facilities-shortcode.php:53
+#: views/lc-rentals-facilities-shortcode.php:55
+msgid "Cooking Basics (Pots and pans, oil, salt and pepper)"
+msgstr ""
+"Βασικά είδη μαγειρέματος (κατσαρόλες και τηγάνια, λάδι, αλάτι και πιπέρι)"
+
+#: views/lc-rentals-facilities-shortcode.php:59
+#: views/lc-rentals-facilities-shortcode.php:61
+msgid "Dedicated workspace"
+msgstr "Χώρος Εργασίας"
+
+#: views/lc-rentals-facilities-shortcode.php:65
+#: views/lc-rentals-facilities-shortcode.php:67
+msgid "Garden"
+msgstr "Κήπος"
+
+#: views/lc-rentals-facilities-shortcode.php:71
+#: views/lc-rentals-facilities-shortcode.php:73
+msgid "Mountain View"
+msgstr "Θέα Στο Βουνό"
+
+#: views/lc-rentals-facilities-shortcode.php:77
+#: views/lc-rentals-facilities-shortcode.php:79
+msgid "Dishes & Utensils"
+msgstr "Πιάτα Και Σκεύη"
+
+#: views/lc-rentals-facilities-shortcode.php:83
+#: views/lc-rentals-facilities-shortcode.php:85
+msgid "Clothes Dryer"
+msgstr "Στεγνωτήριο Ρούχων"
+
+#: views/lc-rentals-facilities-shortcode.php:89
+#: views/lc-rentals-facilities-shortcode.php:91
+msgid "Washing Machine"
+msgstr "Πλυντήριο Ρούχων"
+
+#: views/lc-rentals-facilities-shortcode.php:95
+#: views/lc-rentals-facilities-shortcode.php:97
+msgid "Drying Rack"
+msgstr "Απλώστρα Ρούχων"
+
+#: views/lc-rentals-facilities-shortcode.php:101
+#: views/lc-rentals-facilities-shortcode.php:103
+msgid "Clothing Storage"
+msgstr "Αποθήκευση Ρούχων"
+
+#: views/lc-rentals-facilities-shortcode.php:107
+#: views/lc-rentals-facilities-shortcode.php:109
+msgid "Hair Dryer"
+msgstr "Πιστολάκι Για Μαλλιά"
+
+#: views/lc-rentals-facilities-shortcode.php:113
+#: views/lc-rentals-facilities-shortcode.php:115
+msgid "Heating"
+msgstr "Θέρμανση"
+
+#: views/lc-rentals-facilities-shortcode.php:119
+#: views/lc-rentals-facilities-shortcode.php:121
+msgid "Kitchen"
+msgstr "Κουζίνα"
+
+#: views/lc-rentals-facilities-shortcode.php:125
+#: views/lc-rentals-facilities-shortcode.php:127
+msgid "Electric Stove"
+msgstr "Ηλεκτρική Κουζίνα"
+
+#: views/lc-rentals-facilities-shortcode.php:131
+#: views/lc-rentals-facilities-shortcode.php:133
+msgid "Hot Water Kettle"
+msgstr "Βραστήρας Νερού"
+
+#: views/lc-rentals-facilities-shortcode.php:137
+#: views/lc-rentals-facilities-shortcode.php:139
+msgid "Oven"
+msgstr "Φούρνος"
+
+#: views/lc-rentals-facilities-shortcode.php:143
+#: views/lc-rentals-facilities-shortcode.php:145
+msgid "Refrigerator"
+msgstr "Ψυγείο"
+
+#: views/lc-rentals-facilities-shortcode.php:149
+#: views/lc-rentals-facilities-shortcode.php:151
+msgid "Microwave"
+msgstr "Φούρνος Μικροκυμάτων"
+
+#: views/lc-rentals-facilities-shortcode.php:155
+#: views/lc-rentals-facilities-shortcode.php:157
+msgid "TV"
+msgstr "Τηλεόραση"
+
+#: views/lc-rentals-facilities-shortcode.php:161
+#: views/lc-rentals-facilities-shortcode.php:163
+msgid "HDTV With Netflix"
+msgstr "HDTV Μέ Netflix"
+
+#: views/lc-rentals-facilities-shortcode.php:167
+#: views/lc-rentals-facilities-shortcode.php:169
+msgid "Books & Reading Materials"
+msgstr "Βιβλία και υλικό ανάγνωσης"
+
+#: views/lc-rentals-facilities-shortcode.php:173
+#: views/lc-rentals-facilities-shortcode.php:175
+msgid "Fireplace"
+msgstr "Τζάκι"
+
+#: views/lc-rentals-facilities-shortcode.php:179
+#: views/lc-rentals-facilities-shortcode.php:181
+msgid "Dishwasher"
+msgstr "Πλυντήριο πιάτων"
+
+#: views/lc-rentals-facilities-shortcode.php:185
+#: views/lc-rentals-facilities-shortcode.php:187
+msgid "WiFi"
+msgstr "Ίντερνετ"
+
+#: views/lc-rentals-facilities-shortcode.php:191
+#: views/lc-rentals-facilities-shortcode.php:193
+msgid "Bathtub"
+msgstr "Μπανιέρα"
+
+#: views/lc-rentals-facilities-shortcode.php:197
+#: views/lc-rentals-facilities-shortcode.php:199
+msgid "Shower"
+msgstr "Ντουζ"
+
+#: views/lc-rentals-facilities-shortcode.php:203
+#: views/lc-rentals-facilities-shortcode.php:205
+msgid "Outdoor Shower"
+msgstr "Εξωτερικό Ντους"
+
+#: views/lc-rentals-facilities-shortcode.php:209
+#: views/lc-rentals-facilities-shortcode.php:211
+msgid "Hammock"
+msgstr "Αιώρα"
+
+#: views/lc-rentals-facilities-shortcode.php:215
+#: views/lc-rentals-facilities-shortcode.php:217
+msgid "BBQ"
+msgstr "Ψησταριά"
+
+#: views/lc-rentals-facilities-shortcode.php:221
+#: views/lc-rentals-facilities-shortcode.php:223
+msgid "Hot Water"
+msgstr "Ζεστό Νερό"
+
+#: views/lc-rentals-facilities-shortcode.php:227
+#: views/lc-rentals-facilities-shortcode.php:229
+msgid "Shampoo & Soap"
+msgstr "Σαμπουάν & Σαπούνι"
+
+#: views/lc-rentals-facilities-shortcode.php:233
+#: views/lc-rentals-facilities-shortcode.php:235
+msgid "Hangers"
+msgstr "Κρεμάστρες"
+
+#: views/lc-rentals-facilities-shortcode.php:239
+#: views/lc-rentals-facilities-shortcode.php:241
+msgid "Iron"
+msgstr "Σίδερο Ρούχων"
+
+#: views/lc-rentals-facilities-shortcode.php:245
+#: views/lc-rentals-facilities-shortcode.php:247
+msgid "Safe Box"
+msgstr "Χρηματοκιβώτιο"
+
+#: views/lc-rentals-search-shortcode.php:4
+msgid "Search The Availability Of Our Rentals"
+msgstr "Αναζήτηση Της Διαθεσιμότητας Των Ακινήτων Μας"
+
+#: views/lc-rentals-search-shortcode.php:8
+msgid "Rental Location"
+msgstr "Τοποθεσία Ακινήτου"
+
+#: views/lc-rentals-search-shortcode.php:9
+msgid "Location"
+msgstr "Τοποθεσία"
+
+#: views/lc-rentals-search-shortcode.php:25
+msgid "Rental Type"
+msgstr "Τύπος Ακινήτου"
+
+#: views/lc-rentals-search-shortcode.php:26
+msgid "Type"
+msgstr "Τύπος"
+
+#: views/lc-rentals-search-shortcode.php:41
+msgid "Check-in Date"
+msgstr "Ημερομηνία Άφιξης"
+
+#: views/lc-rentals-search-shortcode.php:125
+msgid "Check-out Date"
+msgstr "Ημερομηνία Αναχώρησης"
+
+#: views/lc-rentals-search-shortcode.php:209
+msgid "Number Of Persons"
+msgstr "Αριθμός Επισκεπτών"
+
+#: views/lc-rentals-search-shortcode.php:210
+msgid "persons"
+msgstr "επισκέπτες"
+
+#: views/lc-rentals-search-shortcode.php:214
+#: views/lc-rentals-search-shortcode.php:216
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#~ msgid "Shampoo"
+#~ msgstr "Σαμπουάν"

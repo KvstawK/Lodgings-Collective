@@ -1,0 +1,1786 @@
+# Copyright (C) 2022 e.adjustments
+# This file is distributed under the GNU General Public License version 3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: lodgings-collective-theme 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/lodgings-"
+"collective-theme\n"
+"POT-Creation-Date: 2023-08-21T07:47:01+00:00\n"
+"PO-Revision-Date: 2023-08-21 10:48+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: el_GR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Domain: lodgings_collective_theme\n"
+
+#. Theme Name of the theme
+msgid "Lodgings Collective website theme"
+msgstr "Θέμα Lodgings Collective"
+
+#. Description of the theme
+msgid "Vacation rentals management and marketing company website"
+msgstr "Εταιρία διαδικτυακής διαχείρισης και προώθησης τουριστικών καταλυμάτων"
+
+#. Author of the theme
+#: footer.php:95 front-page.php:9
+msgid "Lodgings Collective"
+msgstr "Lodgings Collective"
+
+#. Author URI of the theme
+msgid "https://lodgingscollective.com"
+msgstr "https://lodgingscollective.com"
+
+#: 404.php:7
+msgid "The page you are looking does not exist!"
+msgstr "Η σελίδα που αναζητήσατε δεν υπάρχει!"
+
+#: archive-rentals.php:25 single-lc-rentals.php:61
+msgid "Number Of Guests"
+msgstr "Αριθμός Επισκεπτών"
+
+#: archive-rentals.php:29 single-lc-rentals.php:65
+msgid "Number Of Double Beds"
+msgstr "Αριθμός διπλών κρεβατιών"
+
+#: archive-rentals.php:37 single-lc-rentals.php:73
+msgid "Number Of Bathrooms"
+msgstr "Αριθμός Τουαλετών"
+
+#: archive-rentals.php:41 single-lc-rentals.php:77
+msgid "Rental's Square Meters"
+msgstr "Τετραγωνικά μέτρα ακινήτου"
+
+#: archive-rentals.php:48
+msgid "Amenities: "
+msgstr "Παροχές: "
+
+#: comments.php:15
+msgid "%1$s Reply to \"%2$s\""
+msgid_plural "%1$s Replies to \"%2$s\""
+msgstr[0] "Απάντηση σε"
+msgstr[1] "Απαντήσεις σε"
+
+#: comments.php:45
+msgid "Comments are closed for this post"
+msgstr "Τα σχόλια είναι κλειστά για αυτό το άρθρο"
+
+#: comments.php:48
+msgid "Leave A Comment"
+msgstr "Γράψτε ένα σχολιο"
+
+#: footer.php:8
+msgid "Homepage"
+msgstr "Αρχική"
+
+#: footer.php:21
+msgid "Useful Links"
+msgstr "Χρήσιμοι σύνδεσμοι"
+
+#: footer.php:32
+msgid "Terms & Conditions"
+msgstr "Όροι & Προϋποθέσεις"
+
+#: footer.php:45
+msgid "Privacy Policy"
+msgstr "Πολιτική Απορρήτου"
+
+#: footer.php:58
+msgid "Disclaimer"
+msgstr "Δήλωση Αποποίησης Ευθύνης"
+
+#: footer.php:67 template-parts/components/faq.php:63
+msgid "Contact Us"
+msgstr "Επικοινωνήστε μαζί μας"
+
+#: footer.php:69
+msgid "Tel: "
+msgstr "Τηλ: "
+
+#: footer.php:69
+msgid "Our Telephone"
+msgstr "Ο αριθμός τηλεφώνου μας"
+
+#: footer.php:70
+msgid "Our Viber"
+msgstr "Ο Αριθμός Viber"
+
+#: footer.php:71
+msgid "Our Telegram"
+msgstr "Ο Αριθμός Telegram"
+
+#: footer.php:75
+msgid "Our Instagram"
+msgstr "Το Instagram μας"
+
+#: footer.php:80
+msgid "Our email"
+msgstr "Το email μας"
+
+#: footer.php:86
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: footer.php:87
+msgid "Subscribe to our newsletter!"
+msgstr "Εγγραφείτε στο newsletter μας!"
+
+#: front-page.php:8
+msgid "Welcome to"
+msgstr "Καλωσήρθατε στο"
+
+#: front-page.php:10
+msgid ""
+"A vacation rental online management, promotion and marketplace service for "
+"exceptional lodgings."
+msgstr ""
+"Διαδικτυακή αγορά, διαχείριση & προώθηση επιλεγμένων τουριστικών καταλυμάτων."
+
+#: front-page.php:13
+msgid "Contact Us On Telephone"
+msgstr "Το τηλέφωνο μας"
+
+#: front-page.php:14 page-contact-us.php:21
+msgid "Telephone"
+msgstr "Τηλέφωνο"
+
+#: front-page.php:17
+msgid "Contact Us On Viber"
+msgstr "Το Viber μας"
+
+#: front-page.php:21
+msgid "Contact Us On Telegram"
+msgstr "Το Telegram μας"
+
+#: front-page.php:25
+msgid "Follow Us On Instagram"
+msgstr "Ακολουθείστε Μας Στο Instagram"
+
+#: front-page.php:32
+msgid "Contact Us On Email"
+msgstr "Το Email μας"
+
+#: front-page.php:71
+msgid "Our Locations"
+msgstr "Οι Τοποθεσίες Μας"
+
+#: front-page.php:74 front-page.php:93 front-page.php:114 front-page.php:135
+#: front-page.php:156
+msgid "View All"
+msgstr "Περισσότερα"
+
+#: front-page.php:74
+msgid "Our locations"
+msgstr "Οι τοποθεσίες μας"
+
+#: front-page.php:90 front-page.php:93
+msgid "Lodgings Near The Sea"
+msgstr "Καταλύματα κοντά στη θάλασσα"
+
+#: front-page.php:111 front-page.php:114
+msgid "Mountain Based Lodgings"
+msgstr "Καταλύματα στο βουνό"
+
+#: front-page.php:132 front-page.php:135
+msgid "Lodgings Suitable For Events"
+msgstr "Καταλύματα ιδανικά για εκδηλώσεις"
+
+#: front-page.php:153 front-page.php:156
+msgid "Apartments"
+msgstr "Διαμερίσματα"
+
+#: front-page.php:181
+msgid "A vacation rentals online management and marketing solution"
+msgstr "Διαδικτυακές λύσεις διαχειρίσεως και μάρκετινγκ τουριστικών ακινήτων"
+
+#: front-page.php:183
+msgid "Our Services"
+msgstr "Οι υπηρεσίες μας"
+
+#: front-page.php:185
+msgid ""
+"We create a modern website and promote online your business so that you can "
+"maximize your lodgings potential. We manage your vacation rental through our "
+"online marketplace and a variety of websites like Airbnb, Booking.com, Vrbo "
+"e.t.c. and we use modern SEO methods so that we can be assured that your "
+"business rental website appears higher into all search engines results."
+msgstr ""
+"Δημιουργούμε μια σύγχρονη ιστοσελίδα για το ακίνητο σας και την προωθούμε "
+"διαδικτυακά ώστε να μεγιστοποιήσετε τις δυνατότητες της επιχείρησης σας. "
+"Διαχειριζόμαστε το τουριστικό σας ακίνητο μέσω της διαδικτυακής μας αγοράς "
+"και μιας ποικιλίας ιστότοπων όπως η Airbnb, Booking.com, Vrbo κλπ και "
+"χρησιμοποιούμε σύγχρονες μεθόδους SEO, ώστε να βεβαιώσουμε ότι ο ιστότοπος "
+"της επιχείρησής σας εμφανίζεται υψηλότερα σε όλα τα αποτελέσματα των μηχανών "
+"αναζήτησης."
+
+#: front-page.php:186 front-page.php:196 page-greece-crete.php:43
+#: page-greece.php:55
+msgid "Read More"
+msgstr "Περισσότερα"
+
+#: front-page.php:186
+msgid "About Our Services For Landlords"
+msgstr "Σχετικά Με Τις Υπηρεσίες Μας Για Τους Ιδιοκτήτες"
+
+#: front-page.php:191
+msgid "A complete travel solution for your vacations"
+msgstr "Μια ολοκληρωμένη πρόταση για τις διακοπές σας"
+
+#: front-page.php:193
+msgid "Our Marketplace"
+msgstr "Η Πλατφόρμα Μας"
+
+#: front-page.php:195
+msgid ""
+"Explore our comprehensive range of travel services which include villas, "
+"apartments, flights, rental cars, tours, excursions, and airport taxis. "
+"Simply navigate to these services via direct links on our website or through "
+"our blog posts and booking confirmation emails. Feel free to choose and book "
+"the services that align with your requirements. Our dedicated team is always "
+"ready to address any questions or concerns you may have."
+msgstr ""
+"Παρέχουμε ολοκληρωμένες υπηρεσίες για το ταξίδι σας, όπως βίλες, "
+"διαμερίσματα, πτήσεις, ενοικιαζόμενα αυτοκίνητα, περιηγήσεις, εκδρομές και "
+"ταξί από το αεροδρόμιο. Μπορείτε εύκολα να αποκτήσετε πρόσβαση σε αυτές τις "
+"υπηρεσίες μέσω απευθείας συνδέσμων από τον ιστότοπο μας, από άρθρα στο "
+"ιστολόγιο μας καθώς και από τα μηνύματα επιβεβαίωσης της κράτησης σας. "
+"Επιλέξτε τις υπηρεσίες που χρειάζεστε και κάντε κράτηση, γνωρίζοντας ότι θα "
+"λάβετε της όποια υποστήριξη χρειαστείτε. Η ομάδα μας είναι πάντα στη διάθεσή "
+"σας για να σας βοηθήσει σε όλες τις ερωτήσεις σας."
+
+#: front-page.php:196
+msgid "About Our Services"
+msgstr "Σχετικά με τις Υπηρεσίες μας"
+
+#: header.php:12
+msgid "Skip to content"
+msgstr "Μετάβαση στο περιεχόμενο της ιστοσελίδας"
+
+#: header.php:16 header.php:24
+msgid "Home"
+msgstr "Αρχική"
+
+#: header.php:22
+msgid "Menu"
+msgstr "Μενού"
+
+#: header.php:22
+msgid "primary-nav"
+msgstr "πρωταρχική πλοήγηση"
+
+#: header.php:23
+msgid "Main navigation"
+msgstr "Κύρια πλοήγηση"
+
+#: index.php:6
+msgid "Our Blog:"
+msgstr "Το Blog μας:"
+
+#: index.php:7
+msgid "Articles relative to the field we expertise"
+msgstr "Άρθρα σχετικά με τον τομέα που ειδικευόμαστε"
+
+#: lib/comments_callback.php:9
+msgid "Edit Comment"
+msgstr "Επεξεργασία σχολίου"
+
+#: lib/comments_callback.php:31
+msgid "%s ago"
+msgstr "%s πριν"
+
+#: lib/comments_callback.php:39
+msgid "Your comment is awaiting moderation."
+msgstr "Το σχόλιό σας βρίσκεται σε διαδικασία ελέγχου."
+
+#: lib/helpers.php:51
+msgid "Read More <span class=\"screen-reader-text\">About %s</span>"
+msgstr "Διαβάστε Περισσότερα <span class=\"screen-reader-text\">Για %s</span>"
+
+#: lib/helpers.php:70
+msgid "Posted on %s"
+msgstr "Δημοσιεύτηκε στις %s"
+
+#: lib/helpers.php:75
+msgid " By: %s"
+msgstr " Απο: %s"
+
+#: lib/navigation.php:7
+msgid "Main Menu"
+msgstr "Κυρίως Μενού"
+
+#: lib/navigation.php:19
+msgid "Show %s submenu"
+msgstr "Εμφάνιση του υπομενού %s"
+
+#: lib/navigation.php:20
+msgid "Hide %s submenu"
+msgstr "Απόκρυψη %s υπομενού"
+
+#: lib/sidebars.php:8
+msgid "Primary Sidebar"
+msgstr "Κύρια Sidebar"
+
+#: lib/sidebars.php:9
+msgid "The sidebar for the blog page"
+msgstr "Sidebar για την σελίδα του blog"
+
+#: loop.php:23 template-parts/page/content.php:8
+msgid "By "
+msgstr "Από "
+
+#: page-book-a-flight.php:6
+msgid "Book A Flight:"
+msgstr "Κάντε Κράτηση Πτήσης:"
+
+#: page-book-a-flight.php:7
+msgid "Check the availability of flights for every destination needed."
+msgstr ""
+"Ελέγξτε τη διαθεσιμότητα των πτήσεων για κάθε προορισμό που απαιτείται."
+
+#: page-book-a-taxi.php:6
+msgid "Taxi Service:"
+msgstr "Υπηρεσία Ταξί:"
+
+#: page-book-a-taxi.php:7
+msgid "Book a taxi to and from all the destinations needed."
+msgstr "Κάντε κράτηση ταξί από και προς όλους τους προορισμούς που χρειάζεστε."
+
+#: page-book-a-tour.php:6
+msgid "Book A Tour:"
+msgstr "Κάντε Κράτηση Για Περιηγήσεις:"
+
+#: page-book-a-tour.php:7
+msgid "Check the availability of tours & excursions in the area you require."
+msgstr ""
+"Ελέγξτε τη διαθεσιμότητα εκδρομών και περιηγήσεων στην περιοχή που "
+"χρειάζεστε."
+
+#: page-book-a-vehicle.php:6
+msgid "Book A Vehicle:"
+msgstr "Κάντε Κράτηση Οχήματος:"
+
+#: page-book-a-vehicle.php:7
+msgid "Check the availability of vehicles from our partners."
+msgstr "Ελέγξτε τη διαθεσιμότητα των οχημάτων από τους συνεργάτες μας."
+
+#: page-book-a-yacht.php:6
+msgid "Book A Yacht:"
+msgstr "Κάντε Κράτηση Σκάφους:"
+
+#: page-book-a-yacht.php:7
+msgid "Check the availability of yachts in the area you require."
+msgstr ""
+"Ελέγξτε τη διαθεσιμότητα των σκαφών αναψυχής στην περιοχή που χρειάζεστε."
+
+#: page-contact-us.php:6
+msgid "Contact Us:"
+msgstr "Επικοινωνήστε μαζί μας:"
+
+#: page-contact-us.php:7
+msgid "Feel free to contact us for anything needed"
+msgstr "Παρακαλώ επικοινωνήσετε μαζί μας για οτιδήποτε χρειαστείτε"
+
+#: page-contact-us.php:15
+msgid "Get in touch"
+msgstr "Επικοινωνήστε μαζί μας"
+
+#: page-contact-us.php:16
+msgid "Send us a text or call us:"
+msgstr "Στείλτε μας ένα μήνυμα ή καλέστε μας:"
+
+#: page-contact-us.php:21
+msgid "Telephone: +30 6971 58 25 03"
+msgstr "Αριθμός: +30 6971 58 25 03"
+
+#: page-contact-us.php:47
+msgid "Or send us a message through our contact form:"
+msgstr "Ή στείλτε μας μήνυμα μέσω της φόρμας επικοινωνίας:"
+
+#: page-greece-crete-heraklion.php:6
+msgid "Villas & Apartments In Heraklion Crete, Greece"
+msgstr "Βίλες & Διαμερίσματα στο Ηράκλειο Κρήτης, Ελλάδα"
+
+#: page-greece-crete-heraklion.php:7
+msgid ""
+"Check our guide and the availability of our short-term rentals in Heraklion."
+msgstr "Δείτε την διαθεσιμότητα των ακινήτων που διαχειριζόμαστε στο Ηράκλειο."
+
+#: page-greece-crete.php:6
+msgid "Villas & Apartments In Crete, Greece"
+msgstr "Βίλες & Διαμερίσματα Στην Κρήτη"
+
+#: page-greece-crete.php:7
+msgid ""
+"Check our guide and the availability of our short-term rentals in Crete."
+msgstr "Δείτε την διαθεσιμότητα των ακινήτων που διαχειριζόμαστε στην Κρήτη."
+
+#: page-greece-crete.php:16
+msgid "Crete"
+msgstr "Κρήτη"
+
+#: page-greece-crete.php:17
+msgid ""
+"Crete is a beautiful island located in the southern part of the Aegean Sea, "
+"and is one of the most popular travel destinations in Greece. Known for its "
+"stunning beaches, rich history, and delicious cuisine, Crete is a great "
+"destination for travelers of all ages and interests. Here are some reasons "
+"why you should consider traveling to Crete, as well as tips on planning your "
+"trip."
+msgstr ""
+"Η Κρήτη είναι ένα υπέροχο νησί που βρίσκεται στο νότιο τμήμα του Αιγαίου και "
+"είναι ένας από τους πιο δημοφιλείς ταξιδιωτικούς προορισμούς στην Ελλάδα. "
+"Γνωστή για τις εκπληκτικές παραλίες, την πλούσια ιστορία και τη θαυμάσια "
+"κουζίνα της, η Κρήτη είναι ένας εξαιρετικός προορισμός για ταξιδιώτες όλων "
+"των ηλικιών και ενδιαφερόντων. Εδώ είναι μερικοί λόγοι για τους οποίους θα "
+"θέλατε να επισκεφτείτε την Κρήτη, καθώς και συμβουλές για τον προγραμματισμό "
+"του ταξιδιού σας."
+
+#: page-greece-crete.php:21
+msgid "Best Time to Visit Crete"
+msgstr "Η Καλύτερη εποχή για να επισκεφθείτε την Κρήτη"
+
+#: page-greece-crete.php:22
+msgid ""
+"The best time to visit Crete is between May and October, when the weather is "
+"warm and sunny, and the beaches are at their best. During this time, "
+"visitors can enjoy a variety of outdoor activities, such as swimming, "
+"hiking, and exploring ancient ruins. In addition, there are many cultural "
+"events and festivals throughout the summer, showcasing the island's rich "
+"history and traditions."
+msgstr ""
+"Η καλύτερη εποχή για να επισκεφθείτε την Κρήτη είναι μεταξύ Μαΐου και "
+"Οκτωβρίου, όταν ο καιρός είναι ζεστός και ηλιόλουστος και οι παραλίες είναι "
+"πιο όμορφες από ποτέ! Κατά τη διάρκεια αυτής της περιόδου, οι επισκέπτες "
+"μπορούν να απολαύσουν μια ποικιλία από υπαίθριες δραστηριότητες, όπως "
+"κολύμπι, πεζοπορία και εξερεύνηση αρχαίων ερειπίων. Επιπλέον, υπάρχουν "
+"πολλές πολιτιστικές εκδηλώσεις και φεστιβάλ καθ ' όλη τη διάρκεια του "
+"καλοκαιριού, προβάλλοντας την πλούσια ιστορία και τις παραδόσεις του νησιού."
+
+#: page-greece-crete.php:25
+msgid "Is Crete Safe to Travel?"
+msgstr "Είναι η Κρήτη ασφαλής για να ταξιδέψετε;"
+
+#: page-greece-crete.php:26
+msgid ""
+"Crete is generally a safe travel destination, with a low crime rate and "
+"friendly locals. However, it's always a good idea to take basic safety "
+"precautions, such as keeping an eye on your belongings and avoiding unlit "
+"areas at night. It's also important to follow local customs and laws, and to "
+"respect the local culture."
+msgstr ""
+"Η Κρήτη είναι γενικά ένας ασφαλής ταξιδιωτικός προορισμός, με χαμηλό ποσοστό "
+"εγκληματικότητας και φιλικούς ντόπιους κατοίκους. Ωστόσο, είναι πάντα καλή "
+"ιδέα να λαμβάνετε βασικές προφυλάξεις ασφαλείας, όπως να παρακολουθείτε τα "
+"προσωπικά σας αντικείμενα και να αποφεύγετε τις μη φωτισμένες περιοχές τη "
+"νύχτα. Είναι επίσης σημαντικό να ακολουθείτε τα τοπικά έθιμα και τους νόμους "
+"και να σέβεστε τον τοπικό πολιτισμό."
+
+#: page-greece-crete.php:29
+msgid "Crete Vacation"
+msgstr "Διακοπές Την Κρήτη"
+
+#: page-greece-crete.php:30
+msgid ""
+"A vacation in Crete offers a variety of experiences, from relaxing on the "
+"beach to exploring ancient ruins and traditional villages. Visitors can also "
+"enjoy delicious Cretan cuisine, including fresh seafood, olive oil, and "
+"local wines. There are many accommodation options, ranging from luxurious "
+"hotels to cozy guesthouses, as well as vacation rentals that offer the "
+"comfort and privacy of a home away from home."
+msgstr ""
+"Οι διακοπές στην Κρήτη προσφέρουν μια ποικιλία εμπειριών, από χαλάρωση στην "
+"παραλία μέχρι εξερεύνηση αρχαίων ερειπίων και παραδοσιακών χωριών. Οι "
+"επισκέπτες μπορούν επίσης να απολαύσουν την θαυμαστή κρητική κουζίνα, η "
+"οποία συμπεριλαμβάνει φρέσκα θαλασσινά, ελαιόλαδο και τοπικά κρασιά. "
+"Υπάρχουν πολλές επιλογές διαμονής, από πολυτελή ξενοδοχεία μέχρι άνετους "
+"ξενώνες, καθώς και τουριστικά καταλύματα τα οποία προσφέρουν την άνεση και "
+"την ιδιωτικότητα ενός σπιτιού."
+
+#: page-greece-crete.php:33
+msgid "Why Travel to Crete?"
+msgstr "Γιατί Να Ταξιδέψετε Στην Κρήτη;"
+
+#: page-greece-crete.php:34
+msgid ""
+"Crete offers a unique blend of natural beauty, cultural heritage, and modern "
+"amenities, making it a great destination for travelers of all kinds. With "
+"over 1,000 kilometers of coastline, the island boasts some of the most "
+"beautiful beaches in Europe, while the rugged interior is home to "
+"traditional villages and ancient archaeological sites. Whether you're "
+"interested in history, culture, or nature, there's something for everyone in "
+"Crete."
+msgstr ""
+"Η Κρήτη προσφέρει ένα μοναδικό μείγμα φυσικής ομορφιάς, πολιτιστικής "
+"κληρονομιάς και σύγχρονων ανέσεων, καθιστώντας την έναν εξαιρετικό προορισμό "
+"για ταξιδιώτες όλων των ειδών. Με πάνω από 1.000 χιλιόμετρα ακτογραμμής, το "
+"νησί μπορεί να υπερηφανεύεται για μερικές από τις πιο όμορφες παραλίες της "
+"Ευρώπης, ενώ οι βουνίσιες περιοχές στο εσωτερικό του φιλοξενούν παραδοσιακά "
+"χωριά και αρχαιολογικούς χώρους. Είτε ενδιαφέρεστε για την ιστορία, τον "
+"πολιτισμό ή τη φύση, υπάρχει κάτι για όλους στην Κρήτη."
+
+#: page-greece-crete.php:37 page-greece.php:45
+msgid "Vacation Rentals"
+msgstr "Τουριστικά Ακίνητα"
+
+#: page-greece-crete.php:38
+msgid ""
+"Vacation rentals are a popular option for visitors to Crete, offering the "
+"comfort and privacy of a home away from home. There are many options to "
+"choose from, including apartments, villas, and cottages, with a variety of "
+"amenities to suit all needs and budgets. Vacation rentals can also be a more "
+"affordable option for families or groups, as they often have more space and "
+"flexibility than traditional hotels."
+msgstr ""
+"Τα τουριστικά ακίνητα είναι μια δημοφιλής επιλογή για τους επισκέπτες της "
+"Κρήτης, προσφέροντας την άνεση και την ιδιωτικότητα ενός σπιτιού. Υπάρχουν "
+"πολλές επιλογές για να διαλέξετε, όπως διαμερίσματα, βίλες και εξοχικές "
+"κατοικίες, με μια ποικιλία ανέσεων που ταιριάζουν σε όλες τις ανάγκες και "
+"τους προϋπολογισμούς εξόδων. Τα τουριστικά ακίνητα μπορούν επίσης να είναι "
+"μια πιο προσιτή επιλογή για οικογένειες ή ομάδες, καθώς συχνά έχουν "
+"περισσότερο χώρο και ευελιξία από τα παραδοσιακά ξενοδοχεία."
+
+#: page-greece-crete.php:48
+msgid "Our Lodgings By Crete Prefectures"
+msgstr "Τα Τουριστικά Μας Καταλύματα Σε Νομούς Της Κρήτης"
+
+#: page-greece.php:6
+msgid "Villas & Apartments In Greece"
+msgstr "Βίλες & Διαμερίσματα Στην Ελλάδα"
+
+#: page-greece.php:7
+msgid ""
+"Check our guide and the availability of our short-term rentals in Greece."
+msgstr "Δείτε την διαθεσιμότητα των ακινήτων που διαχειριζόμαστε."
+
+#: page-greece.php:16
+msgid "Greece"
+msgstr "Ελλάδα"
+
+#: page-greece.php:17
+msgid ""
+"Greece is a country with a rich history, stunning natural beauty, and an "
+"abundance of cultural treasures, making it an ideal travel destination for "
+"those who are looking for a unique and memorable experience.  Whether you're "
+"interested in exploring the ancient ruins of Athens, relaxing on the "
+"beautiful beaches of the Greek islands, or indulging in the local cuisine, "
+"here's what you need to know about traveling to this beautiful country."
+msgstr ""
+"Η Ελλάδα είναι μια χώρα με πλούσια ιστορία, εκπληκτική φυσική ομορφιά και "
+"πληθώρα πολιτιστικών θησαυρών, καθιστώντας την ιδανικό ταξιδιωτικό προορισμό "
+"για όσους αναζητούν μια μοναδική και αξέχαστη εμπειρία.  Εάν ενδιαφέρεστε να "
+"εξερευνήσετε τα αρχαία κτίσματα της Αθήνας, να χαλαρώσετε στις όμορφες "
+"παραλίες των ελληνικών νησιών ή να απολαύσετε την τοπική κουζίνα, εδώ είναι "
+"ο οδηγός μας για το τι πρέπει να ξέρετε για το ταξίδι σας σε αυτήν την "
+"όμορφη χώρα."
+
+#: page-greece.php:21
+msgid "Best Time to Visit Greece"
+msgstr "Η καλύτερη εποχή για να επισκεφθείτε την Ελλάδα"
+
+#: page-greece.php:22
+msgid ""
+"The best time to visit Greece is during the summer months, from June to "
+"August, when the weather is warm and sunny, perfect for exploring the "
+"outdoors. However, if you prefer a quieter and less crowded experience, "
+"consider visiting during the shoulder seasons of spring (April to June) and "
+"fall (September to October). During these months, you'll enjoy mild weather "
+"and smaller crowds, making it easier to see the country's famous ruins, "
+"monuments and beaches without having to deal with the hustle and bustle of "
+"peak tourist season."
+msgstr ""
+"Η καλύτερη εποχή για να επισκεφθείτε την Ελλάδα είναι κατά τους "
+"καλοκαιρινούς μήνες, από τον Ιούνιο έως τον Αύγουστο, όταν ο καιρός είναι "
+"ζεστός και ηλιόλουστος, ιδανικός για να εξερευνήσετε την ύπαιθρο. Ωστόσο, "
+"εάν προτιμάτε μια πιο ήσυχη και λιγότερο γεμάτη εμπειρία, σκεφτείτε να "
+"επισκεφθείτε κατά τη διάρκεια των εποχών της άνοιξης (Απρίλιος έως Ιούνιος) "
+"και του φθινοπώρου (Σεπτέμβριος έως Οκτώβριος). Κατά τη διάρκεια αυτών των "
+"μηνών, θα απολαύσετε ήπιο καιρό και λιγότερο συνωστισμό, καθιστώντας "
+"ευκολότερο να δείτε τα διάσημα μνημεία και τις παραλίες της χώρας χωρίς να "
+"χρειάζεται να αντιμετωπίσετε τη φασαρία της υψηλότερης ζήτησης της "
+"τουριστικής περιόδου."
+
+#: page-greece.php:25
+msgid "Is Greece Safe to Travel?"
+msgstr "Είναι η Ελλάδα ασφαλής για να ταξιδέψετε;"
+
+#: page-greece.php:26
+msgid ""
+"Yes, Greece is generally considered a safe destination for tourists. "
+"However, as with any travel, it's important to be aware of your surroundings "
+"and take precautions to ensure your safety. This includes keeping your "
+"valuables secure, avoiding isolated areas at night, and being mindful of "
+"pickpocketing and other petty crimes."
+msgstr ""
+"Ναι, η Ελλάδα θεωρείται γενικά ένας ασφαλής προορισμός για επισκέπτες. "
+"Ωστόσο, όπως και με κάθε ταξίδι, είναι σημαντικό να γνωρίζετε το περιβάλλον "
+"σας και να λαμβάνετε προφυλάξεις για την εγγύηση της ασφάλειά σας. Αυτό "
+"περιλαμβάνει τη διατήρηση των τιμαλφών σας ασφαλή, την αποφυγή απομονωμένων "
+"περιοχών τη νύχτα και την γνώση για τις περιοχές όπου δρουν μικρο-απατεώνες."
+
+#: page-greece.php:29
+msgid "Greece Vacation"
+msgstr "Διακοπές Στην Ελλάδα"
+
+#: page-greece.php:30
+msgid ""
+"Whether you're looking for a relaxing beach holiday or an adventure-filled "
+"trip, Greece has something to offer every type of traveler. With its "
+"stunning beaches, charming villages, and rich cultural heritage, a Greece "
+"vacation is the perfect opportunity to experience the best of what this "
+"country has to offer."
+msgstr ""
+"Είτε προτιμάτε χαλαρωτικές διακοπές στην παραλία είτε για ένα ταξίδι γεμάτο "
+"περιπέτεια, η Ελλάδα έχει κάτι να προσφέρει σε κάθε τύπο ταξιδιώτη. Με τις "
+"εκπληκτικές παραλίες, τα γοητευτικά χωριά και την πλούσια πολιτιστική "
+"κληρονομιά, οι διακοπές στην Ελλάδα είναι η τέλεια ευκαιρία να ζήσετε ό, τι "
+"καλύτερο έχει να προσφέρει αυτή η χώρα."
+
+#: page-greece.php:33
+msgid "Why Travel to Greece?"
+msgstr "Γιατί να ταξιδέψετε στην Ελλάδα;"
+
+#: page-greece.php:34
+msgid ""
+"There are countless reasons to visit Greece, from its breathtaking "
+"landscapes to its rich history and cultural heritage. Whether you're "
+"interested in exploring ancient ruins, relaxing on pristine beaches, or "
+"experiencing the country's vibrant nightlife, Greece has something to offer "
+"everyone."
+msgstr ""
+"Υπάρχουν αμέτρητοι λόγοι για να επισκεφθείτε την Ελλάδα, από τα μαγευτικά "
+"τοπία της μέχρι την πλούσια ιστορία και την πολιτιστική κληρονομιά της. Είτε "
+"ενδιαφέρεστε να εξερευνήσετε τα αρχαία κτίσματα της, να χαλαρώσετε στις "
+"πανέμορφες παραλίες της ή να ζήσετε τη έντονη νυχτερινή ζωή της, η Ελλάδα "
+"έχει κάτι να προσφέρει σε όλους."
+
+#: page-greece.php:37
+msgid "Travel Requirements to Greece"
+msgstr "Ταξιδιωτικές Απαιτήσεις Για Την Ελλάδα"
+
+#: page-greece.php:38
+msgid ""
+"Visitors to Greece are required to have a valid passport and may need a "
+"visa, depending on their country of origin. It's a good idea to check the "
+"requirements well in advance of your trip to avoid any unexpected delays."
+msgstr ""
+"Οι επισκέπτες στην Ελλάδα πρέπει να έχουν έγκυρο διαβατήριο και μπορεί να "
+"χρειαστούν βίζα, ανάλογα με τη χώρα καταγωγής τους. Είναι καλή ιδέα να "
+"ελέγξετε τις απαιτήσεις πολύ πριν από το ταξίδι σας για να αποφύγετε τυχόν "
+"απροσδόκητες καθυστερήσεις."
+
+#: page-greece.php:41
+msgid "Greek Islands"
+msgstr "Τα Νησιά Της Ελλάδος"
+
+#: page-greece.php:42
+msgid ""
+"The Greek islands are one of the country's most popular tourist "
+"destinations, and for good reason. With their stunning beaches, crystal-"
+"clear waters, and charming villages, the Greek islands are the perfect place "
+"to escape the hustle and bustle of city life. Crete, Santorini, and Mykonos "
+"are three of the most popular Greek islands, and each one offers a unique "
+"and unforgettable experience for travelers."
+msgstr ""
+"Τα ελληνικά νησιά είναι ένας από τους πιο δημοφιλείς τουριστικούς "
+"προορισμούς της χώρας. Με τις εκπληκτικές παραλίες, τα κρυστάλλινα νερά και "
+"τα γοητευτικά χωριά, τα ελληνικά νησιά είναι το ιδανικό μέρος για να "
+"ξεφύγετε από τη φασαρία της ζωής στην πόλη. Η Κρήτη, η Σαντορίνη και η "
+"Μύκονος είναι τρία από τα πιο δημοφιλή ελληνικά νησιά και το καθένα "
+"προσφέρει μια μοναδική και αξέχαστη εμπειρία για τους ταξιδιώτες."
+
+#: page-greece.php:46
+msgid ""
+"If you're looking for a comfortable and affordable place to stay during your "
+"Greece vacation, we believe we have what you want! We offer exceptional "
+"villas and apartments at the lowest prices on the net, so you can make the "
+"most of your time in this beautiful country."
+msgstr ""
+"Αν ψάχνετε για ένα άνετο και οικονομικό μέρος για να μείνετε κατά τη "
+"διάρκεια των διακοπών σας στην Ελλάδα, πιστεύουμε ότι έχουμε αυτό που "
+"χρειάζεστε! Προσφέρουμε εξαιρετικές βίλες και διαμερίσματα στις χαμηλότερες "
+"τιμές στο διαδίκτυο, ώστε να μπορείτε να αξιοποιήσετε στο έπακρο το χρόνο "
+"σας σε αυτή την όμορφη χώρα."
+
+#: page-greece.php:49
+msgid "Travel Services"
+msgstr "Οι Υπηρεσίες Μας Για Το Ταξίδι Σας"
+
+#: page-greece.php:50
+msgid ""
+"To make your Greece vacation as smooth and enjoyable as possible, we also "
+"offer a range of travel services, including car rental, flight booking, taxi "
+"booking, yacht rental, and tour and excursion booking. Whether you're "
+"looking to explore the country's famous ruins or simply relax on its "
+"pristine beaches, we've got you covered!"
+msgstr ""
+"Για να σας βοηθήσουμε να κάνετε τις διακοπές σας στην Ελλάδα όσο το δυνατόν "
+"πιο εύκολες και ευχάριστες, προσφέρουμε μια σειρά ταξιδιωτικών υπηρεσιών, "
+"όπως ενοικίαση αυτοκινήτου, κράτηση πτήσης, κράτηση ταξί, ενοικίαση σκάφους "
+"και κράτηση εκδρομών και περιηγήσεων. Είτε θέλετε να εξερευνήσετε τα διάσημα "
+"αρχαία της χώρας είτε απλά να χαλαρώσετε στις παραλίες της, σας έχουμε "
+"καλυμμένους!"
+
+#: page-greece.php:60
+msgid "Greece Best Destinations"
+msgstr "Καλύτεροι Ελληνικοί Προορισμοί"
+
+#: page-list-your-rental.php:6
+msgid "List Your Property:"
+msgstr "Καταχωρίστε Το Ακίνητό Σας:"
+
+#: page-list-your-rental.php:7
+msgid "Choose one of our packages and list your property with us."
+msgstr "Επιλέξτε ένα από τα πακέτα μας και καταχωρίστε το ακίνητό σας με εμάς."
+
+#: page-list-your-rental.php:15
+msgid "Promote Your Vacation Rental"
+msgstr "Προωθήστε Το Τουριστικό Σας Ακίνητο"
+
+#: page-list-your-rental.php:16
+msgid ""
+"Fill out the form to submit your vacation rental information and see if you "
+"meet our eligibility requirements. We'll review your submission and get back "
+"to you shortly. Please make sure to include all relevant details about your "
+"property, including its name, your contact information, and any amenities or "
+"special features that make it stand out. Once approved, your property will "
+"be promoted on our platform, reaching a wider audience of potential guests."
+msgstr ""
+"Συμπληρώστε τη φόρμα για να υποβάλετε τα στοιχεία του τουριστικού σας "
+"ακινήτου και δείτε εάν πληρείτε τις προϋποθέσεις εκλεξιμότητας. Θα "
+"εξετάσουμε την υποβολή των στοιχείων σας και θα επικοινωνήσουμε μαζί σας "
+"σύντομα. Φροντίστε να συμπεριλάβετε όλες τις σχετικές λεπτομέρειες σχετικά "
+"με το ακίνητό σας, συμπεριλαμβανομένου του ονόματός του, των στοιχείων "
+"επικοινωνίας σας και οποιωνδήποτε ανέσεων ή ειδικών χαρακτηριστικών που το "
+"κάνουν να ξεχωρίζει. Μόλις εγκριθεί, το ακίνητό σας θα προωθηθεί στην "
+"πλατφόρμα μας, προσεγγίζοντας ένα ευρύτερο κοινό πιθανών επισκεπτών."
+
+#: page-make-a-booking.php:6
+msgid "Villas & Apartments In Crete:"
+msgstr "Βίλες & Διαμερίσματα Στην Κρήτη:"
+
+#: page-make-a-booking.php:7
+msgid "Check the availability of our rentals in Crete in Greece"
+msgstr "Δείτε την διαθεσιμότητα των ακινήτων που διαχειριζόμαστε στην Κρήτη"
+
+#: page-services-for-landlords.php:6
+msgid "Our Services For Landlords:"
+msgstr "Οι Υπηρεσίες Μας Για Ιδιοκτήτες:"
+
+#: page-services-for-landlords.php:7
+msgid "What we offer to our landlords clients in detail"
+msgstr "Τι προσφέρουμε στους ιδιοκτήτες τουριστικών ακινήτων αναλυτικότερα"
+
+#: page-services-for-landlords.php:16 page-services.php:15
+msgid ""
+"In Lodgings Collective, we provide quality solutions in order to maximize "
+"occupancy for our clients vacation rentals and also provide an exceptional "
+"experience for the guests."
+msgstr ""
+"Στο Lodgings Collective, παρέχουμε ποιοτικές λύσεις για να μεγιστοποιήσουμε "
+"την πληρότητα των τουριστικών καταλυμάτων των πελατών μας και επίσης να "
+"παρέχουμε μια εξαιρετική εμπειρία για τους επισκέπτες."
+
+#: page-services-for-landlords.php:21
+msgid "website creation & SEO promotion"
+msgstr "δημιουργία ιστοσελίδας & SEO προώθησης της"
+
+#: page-services-for-landlords.php:22 page-services.php:21
+msgid ""
+"We create a unique website for your vacation rental and we promote it online "
+"by creating quality content and using the most effective and modern SEO "
+"techniques. Your website wil have a complete booking system that your guests "
+"can easily book so that you/they will avoid paying any booking fees to "
+"airbnb, booking.com e.t.c.."
+msgstr ""
+"Δημιουργούμε μια ιστοσελίδα για το κατάλυμα σας και την προωθούμε στο "
+"διαδύκτιο χρησιμοποιώντας τις πιο αποτελεσματικές και σύγχρονες τεχνικές "
+"SEO. Ο ιστότοπός σας θα διαθέτει ένα πλήρες σύστημα κρατήσεων με το οποίο οι "
+"επισκέπτες σας μπορούν εύκολα να κάνουν κράτηση, ώστε να αποφύγετε την "
+"πληρωμή των προμήθειών κράτησης στην airbnb, booking.com κ.λπ."
+
+#: page-services-for-landlords.php:26 page-services.php:25
+msgid "promotion in vacation rental online marketplaces"
+msgstr "προώθηση σε διαδικτυακές αγορές τουριστικών καταλυμάτων"
+
+#: page-services-for-landlords.php:27
+msgid ""
+"Your lodging will be promoted to the best vacation rental online "
+"marketplaces like airnb, booking.com, Vrbo and a lot of other similar "
+"websites. We communicate with the customers that will book your vacation "
+"rental from those marketplaces instantly."
+msgstr ""
+"Το κατάλυμα σας θα προωθηθεί στις καλύτερες διαδικτυακές αγορές ενοικίασης "
+"τουριστικών ακινήτων όπως airnb, booking.com, Vrbo και άλλες παρόμοιες "
+"ιστοσελίδες. Επικοινωνούμε άμεσα με τους πελάτες που θα κάνουν κράτηση με "
+"εσάς από αυτές τις αγορές."
+
+#: page-services-for-landlords.php:31
+msgid "Full vacation rental online solution"
+msgstr "Πλήρης Διαδικτυακή Λύση Διαχειρίσεως & Μάρκετινγκ Τουριστικών Ακινήτων"
+
+#: page-services-for-landlords.php:32
+msgid ""
+"We provide a complete online solution for vacation rental owners, including "
+"the creation of a unique website with a complete booking system and "
+"effective SEO techniques for online promotion. Additionally, we promote your "
+"lodging on top vacation rental online marketplaces and handle all "
+"communication with guests who book your property through these channels, "
+"ensuring a smooth experience for both you and your guests."
+msgstr ""
+"Παρέχουμε μια πλήρης διαδικτυακή λύση για ιδιοκτήτες τουριστικών ακινήτων, "
+"συμπεριλαμβανομένης της δημιουργίας μιας ιστοσελίδας με ένα πλήρες σύστημα "
+"κρατήσεων και αποτελεσματικές τεχνικές SEO για την προώθηση της διαδικτυακά. "
+"Επιπλέον, προωθούμε το κατάλυμα σας στις κορυφαίες διαδικτυακές αγορές "
+"ενοικιαζόμενων καταλυμάτων και αναλαμβάνουμε όλη την επικοινωνία με τους "
+"επισκέπτες που κάνουν κράτηση στο ακίνητό σας μέσω αυτών των καναλιών, "
+"διασφαλίζοντας μια απαλλαγμένη από προβλήματα εμπειρία για εσάς και τους "
+"επισκέπτες σας."
+
+#: page-services-for-landlords.php:41 page-services.php:39
+msgid "Our Packages"
+msgstr "Τα Πακέτα μας"
+
+#: page-services-for-landlords.php:42
+msgid "We offer 4 main packages and combinations of them, which are: "
+msgstr ""
+"Προσφέρουμε 4 βασικά πακέτα υπηρεσιών καθώς και συνδυασμό αυτών, τα οποία "
+"είναι: "
+
+#: page-services-for-landlords.php:46
+msgid "Online Marketplaces Management"
+msgstr "Διαχείριση σε διαδικτυακές αγορές τουριστικών καταλυμάτων"
+
+#: page-services-for-landlords.php:47 page-services-for-landlords.php:68
+#: page-services-for-landlords.php:89 page-services-for-landlords.php:114
+#: page-services.php:45 page-services.php:69 page-services.php:93
+msgid "Fee per booking: "
+msgstr "Χρέωση ανά κράτηση: "
+
+#: page-services-for-landlords.php:50 page-services-for-landlords.php:71
+#: page-services-for-landlords.php:92 page-services-for-landlords.php:117
+#: page-services.php:47 page-services.php:71 page-services.php:95
+msgid "What we offer: "
+msgstr "Τι προσφέρουμε: "
+
+#: page-services-for-landlords.php:53 page-services-for-landlords.php:120
+msgid ""
+"Posting your lodging into our website and on other quality rental online "
+"marketplaces, including airbnb.com, booking.com. expedia.com e.t.c."
+msgstr ""
+"Δημοσίευση του καταλύματος σας στον ιστότοπό μας και σε άλλες διαδικτυακές "
+"αγορές ενοικίασης καταλυμάτων, συμπεριλαμβανομένων των airbnb,  booking.com. "
+"HomeAway κ.α."
+
+#: page-services-for-landlords.php:57
+msgid ""
+"Communicating effectively with your lodging's clients, both on our website "
+"and on online marketplaces, for everything needed from their initial request "
+"to departure."
+msgstr ""
+"Επικοινωνία με τους πελάτες τόσο στον ιστότοπό μας όσο και στις διαδικτυακές "
+"αγορές, για όλα όσα χρειάζονται από το αρχικό τους αίτημα έως την αναχώρησή "
+"τους."
+
+#: page-services-for-landlords.php:61 page-services-for-landlords.php:133
+msgid "* This package is available only for vacation rentals based in Greece."
+msgstr "* Αυτό το πακέτο είναι διαθέσιμο μόνο για ακίνητα με έδρα την Ελλάδα."
+
+#: page-services-for-landlords.php:67
+msgid "Posting Your Lodging In Our Platform"
+msgstr "Προβολή Του Καταλύματος Σας Στην Πλατφόρμα Μας"
+
+#: page-services-for-landlords.php:74 page-services-for-landlords.php:95
+msgid ""
+"Posting your vacation rental on our website's platform, making it visible to "
+"all of our customers searching for their trip's villa or apartment."
+msgstr ""
+"Δημοσιεύοντας το τουριστικό σας ακίνητο σας στην πλατφόρμα του ιστοτόπου "
+"μας, αυτό καθιστάτε ορατό σε όλους τους πελάτες μας που αναζητούν βίλα ή "
+"διαμέρισμα για το ταξίδι τους."
+
+#: page-services-for-landlords.php:78
+msgid ""
+"Effectively communicating with our online marketplace's clients for your "
+"lodging, for everything needed from the time of their initial request until "
+"their departure."
+msgstr ""
+"Επικοινωνία με τους πελάτες για το κατάλυμα σας από την πλατφόρμα μας, για "
+"οτιδήποτε χρειαστεί από το αίτημά μέχρι την αναχώρησή τους."
+
+#: page-services-for-landlords.php:82
+msgid ""
+"* This package is available for vacation rentals based anywhere in the world."
+msgstr ""
+"* Αυτό το πακέτο είναι διαθέσιμο για ακίνητα που βρίσκονται οπουδήποτε ανά "
+"τον κόσμο."
+
+#: page-services-for-landlords.php:88 page-services.php:44
+msgid "Vacation Rental Website Creation & SEO Promotion"
+msgstr "Δημιουργία Ιστοσελίδας & SEO Προώθησης Της"
+
+#: page-services-for-landlords.php:99 page-services-for-landlords.php:124
+msgid ""
+"We create a quality website with booking functionality for your lodging and "
+"we use modern and effective SEO techniques to rank higher into search "
+"engines results."
+msgstr ""
+"Δημιουργούμε μια ποιοτική ιστοσελίδα με σύστημα κρατήσεων για την ενοικίασή "
+"του ακινήτου σας και χρησιμοποιούμε σύγχρονες και αποτελεσματικές τεχνικές "
+"SEO ετσι ώστε η επιχείρηση σας να εμφανίζεται υψηλότερα στα αποτελέσματα των "
+"μηχανών αναζήτησης."
+
+#: page-services-for-landlords.php:103
+msgid ""
+"Effectively communicate with our online marketplace's and your website's "
+"clients for your lodging, for everything needed from the time of their "
+"initial request until their departure."
+msgstr ""
+"Επικοινωνία με τους πελάτες των διαδικτυακών αγορών ενοικίασης ακινήτων και "
+"του ιστοτόπου σας, από το αίτημά τους μέχρι την αναχώρησή τους."
+
+#: page-services-for-landlords.php:107 page-services-for-landlords.php:132
+#: page-services.php:62 page-services.php:86 page-services.php:114
+msgid ""
+"* This package is available only for villas with swimming pool and high "
+"quality apartments."
+msgstr ""
+"* Αυτό το πακέτο είναι διαθέσιμο μόνο για βίλες με πισίνα και διαμερίσματα "
+"υψηλής ποιότητας."
+
+#: page-services-for-landlords.php:113
+msgid "Full Vacation Rental Online Solution"
+msgstr "Πλήρης Διαδικτυακή Λύση Διαχειρίσεως & Μάρκετινγκ Τουριστικών Ακινήτων"
+
+#: page-services-for-landlords.php:128
+msgid ""
+"Effectively communicate with the online marketplace's and your website's "
+"clients for your lodging, for everything needed from the time of their "
+"initial request until their departure."
+msgstr ""
+"Επικοινωνία με τους πελάτες των διαδικτυακών αγορών ενοικίασης ακινήτων και "
+"του ιστοτόπου σας, από το αίτημά τους μέχρι την αναχώρησή τους."
+
+#: page-services-for-landlords.php:143 page-services.php:126
+msgid "why work with us"
+msgstr "γιατί να συνεργαστείτε μαζί μας"
+
+#: page-services-for-landlords.php:144 page-services.php:127
+msgid "Reasons That You Would Like To Work With Us:"
+msgstr "Λόγοι για τους οποίους θα θέλατε να συνεργαστείτε μαζί μας:"
+
+#: page-services-for-landlords.php:148 page-services.php:131
+msgid "gaining back time for you"
+msgstr "κερδίστε χρόνο για εσάς"
+
+#: page-services-for-landlords.php:149
+msgid ""
+"By letting us manage your lodging in airbnb, booking.com and so many similar "
+"websites, you have more time for you. Also we know some secrets to promote "
+"your lodging professionally in a lot of agency's in the field of tourism "
+"that a novice doesn't know about."
+msgstr ""
+"Αφήνοντάς μας να διαχειριστούμε το τουριστικό σας ακίνητο στην airbnb, "
+"booking.com και άλλες παρόμοιες ιστοσελίδες, έχετε περισσότερο χρόνο για "
+"εσάς. Επίσης, γνωρίζουμε μερικά μυστικά για την προώθηση της επιχείρησης σας "
+"που ένας αρχάριος δεν γνωρίζει."
+
+#: page-services-for-landlords.php:166 page-services.php:149
+msgid "gain integrity by having a quality website"
+msgstr "αποκτήστε ακεραιότητα έχοντας έναν ποιοτικό ιστότοπο"
+
+#: page-services-for-landlords.php:167
+msgid ""
+"Having your own high quality website makes your lodging much more "
+"professional. You have a strong professional presence on the internet, not "
+"only in airbnb and similar websites and also when your guests book from your "
+"website the fees that have to be payed in booking.com, airbnb e.t.c. doesnt "
+"need to be payed any more so you gain a lot in the long run."
+msgstr ""
+"Έχοντας τη δική σας υψηλής ποιότητας ιστοσελίδα, κάνει την επιχείρηση σας "
+"πολύ πιο επαγγελματική. Έχετε ισχυρή παρουσία στο διαδίκτυο και δεν "
+"εξαρτάστε μόνο απο airbnb και παρόμοιες ιστοσελίδες για την προβολή σας. "
+"Επίσης όταν επισκέπτες κάνουν κράτηση από την ιστοσελίδα σας, δεν χρεώνεστε "
+"τις προμήθειες που πρέπει να πληρωθούν σε booking.com, η airbnb κ.λπ. ετσι "
+"ώστε κερδίζετε περισσότερο μακροπρόθεσμα."
+
+#: page-services-for-landlords.php:172 page-services.php:155
+msgid "a quality promotion & management service"
+msgstr ""
+"υπηρεσία ποιοτικής προώθησης και διαχείρισης του τουριστικού σας ακινήτου"
+
+#: page-services-for-landlords.php:173
+msgid ""
+"You can be rest assured that your lodging will have a top quality management "
+"in every service we provide. We provide exactly what we say that we provide, "
+"nothing more, nothing less. Also there is no financial loss of any kind for "
+"you as we are at the same side, we earn when your lodging earns!"
+msgstr ""
+"Μπορείτε να είστε σίγουροι ότι η επιχείρηση σας θα έχει κορυφαίας ποιότητας "
+"διαχείριση. Παρέχουμε ακριβώς αυτό που λέμε ότι παρέχουμε, τίποτα "
+"περισσότερο, τίποτα λιγότερο. Επίσης δεν υπάρχει καμία οικονομική απώλεια "
+"οποιουδήποτε είδους για εσάς, καθώς είμαστε στην ίδια πλευρά, κερδίζουμε "
+"μόνο όταν η επιχείρηση σας κερδίζει!"
+
+#: page-services-for-travelers.php:6
+msgid "Our Services For Travelers:"
+msgstr "Οι Υπηρεσίες Μας Για Ταξιδιώτες:"
+
+#: page-services-for-travelers.php:7
+msgid "What we offer to our traveler clients in detail"
+msgstr "Τι προσφέρουμε στους πελάτες μας που ταξιδεύουν αναλυτικότερα"
+
+#: page-services-for-travelers.php:15
+msgid "A Complete Travel Solution For Your Trip Or Vacation"
+msgstr "Μια Ολοκληρωμένη Λύση Για Το Ταξίδι Ή Τις Διακοπές Σας"
+
+#: page-services-for-travelers.php:19
+msgid ""
+"Our travel hub offers a comprehensive solution for your trip or vacation. "
+"Choose from a selection of carefully curated and unique villas and "
+"apartments for your stay. Book your flights at competitive prices and rent a "
+"car for added convenience. We also offer airport taxi services and "
+"attraction packages to enhance your travel experience. Let us help make your "
+"trip a success by providing all your travel needs in one place."
+msgstr ""
+"Οι ταξιδιωτικές μας υπηρεσίες προσφέρουν μια ολοκληρωμένη λύση για το ταξίδι "
+"ή τις διακοπές σας. Επιλέξτε από τις προσεκτικά διαλεγμένες βίλες και "
+"διαμερίσματα μας για το ταξίδι σας. Κλείστε τις πτήσεις σας σε "
+"ανταγωνιστικές τιμές και ενοικιάστε οποιοδήποτε όχημα σύμφωνα με τις ανάγκες "
+"σας. Προσφέρουμε επίσης υπηρεσίες ταξί από και προς το αεροδρόμιο και πακέτα "
+"περιηγήσεων για να βελτιώσετε την ταξιδιωτική σας εμπειρία. Αφήστε μας να "
+"σας βοηθήσουμε να κάνετε το ταξίδι σας μοναδικό παρέχοντας υπηρεσίες για "
+"οτιδήποτε χρειαστείτε."
+
+#: page-services-for-travelers.php:70
+msgid "How Does It Work?"
+msgstr "Πως Λειτουργεί;"
+
+#: page-services-for-travelers.php:77
+msgid ""
+"Access booking options by clicking the \"Make A Booking\" link at the top of "
+"the page. From there, you can choose to book accommodation, flights, or a "
+"vehicle with just one click. Each link will take you directly to the desired "
+"booking page."
+msgstr ""
+"Αποκτήστε πρόσβαση στις επιλογές κράτησης κάνοντας κλικ στο σύνδεσμο\"Κάντε "
+"Μία Κράτηση\" στην αρχή της σελίδας. Από εκεί, μπορείτε να επιλέξετε να "
+"κάνετε κράτηση διαμονής, πτήσεων ή οχήματος με ένα μόνο κλικ. Κάθε σύνδεσμος "
+"θα σας μεταφέρει απευθείας στην επιθυμητή σελίδα κράτησης."
+
+#: page-services-for-travelers.php:85
+msgid ""
+"Upon reaching the desired booking page, simply select your preferred "
+"accommodation or flight/vehicle, input the necessary information and dates. "
+"Then, proceed to add your payment information and confirm the booking for "
+"your chosen services."
+msgstr ""
+"Μόλις φτάσετε στην επιθυμητή σελίδα κράτησης, απλώς επιλέξτε το κατάλυμα ή "
+"την πτήση/όχημα που προτιμάτε, εισαγάγετε τις απαραίτητες πληροφορίες και "
+"ημερομηνίες. Στη συνέχεια, προχωρήστε στην προσθήκη των στοιχείων πληρωμής "
+"σας και επιβεβαιώστε την κράτηση για τις υπηρεσίες που έχετε επιλέξει."
+
+#: page-services-for-travelers.php:93
+msgid ""
+"Once the form is submitted, your booking is complete! You'll receive an "
+"email confirmation with all the details. If needed, cancellations can be "
+"made through the link provided in the email or by contacting us. Thank you "
+"for choosing us."
+msgstr ""
+"Μόλις υποβληθεί η φόρμα, η κράτησή σας έχει ολοκληρωθεί! Θα λάβετε μια "
+"επιβεβαίωση ηλεκτρονικού ταχυδρομείου με όλες τις λεπτομέρειες. Εάν "
+"χρειαστεί, οι ακυρώσεις μπορούν να γίνουν μέσω του συνδέσμου που παρέχεται "
+"στο ηλεκτρονικό ταχυδρομείο ή επικοινωνώντας μαζί μας. Σας ευχαριστούμε που "
+"μας επιλέξατε."
+
+#: page-services.php:6
+msgid "Villas & Apartments Management & Promotion:"
+msgstr "Διαχείριση & Προώθηση Βιλών & Διαμερισμάτων:"
+
+#: page-services.php:7
+msgid "What we offer to our clients in detail"
+msgstr "Τι προσφέρουμε στους πελάτες μας αναλυτικότερα"
+
+#: page-services.php:20
+msgid "website creation"
+msgstr "δημιουργία ιστοσελίδας"
+
+#: page-services.php:26
+msgid ""
+"Your rental will be promoted to the best vacation rental online marketplaces "
+"like airnb, booking.com, Vrbo and a lot of other similar websites. We "
+"communicate with the customers that will book your rental from those "
+"marketplaces instantly."
+msgstr ""
+"Το ακίνητο σας θα προωθηθεί στις καλύτερες διαδικτυακές αγορές ενοικίασης "
+"τουριστικών ακινήτων όπως airnb, booking.com, Vrbo και άλλες παρόμοιες "
+"ιστοσελίδες. Επικοινωνούμε άμεσα με τους πελάτες που θα κάνουν κράτηση με "
+"εσας από αυτές τις αγορές."
+
+#: page-services.php:30
+msgid "Full rental management"
+msgstr "Πλήρης διαχείριση ακινήτου"
+
+#: page-services.php:31
+msgid ""
+"Our company can take the complete responsibility to make assure that your "
+"guests will the have the best experience that they can get. We will be "
+"responsible for cleaning your rental, take care of the swimming pool the "
+"garden and taking care of the arrival and departure of your guests."
+msgstr ""
+"Η εταιρεία μας μπορεί να αναλάβει την πλήρη ευθύνη και να διασφαλίσει ότι οι "
+"καλεσμένοι σας θα έχουν την καλύτερη εμπειρία που μπορούν να αποκτήσουν απο "
+"την διαμονή στον χώρο σας. Θα είμαστε υπεύθυνοι για την καθαριότητα του "
+"τουριστικού σας ακινήτου, τη φροντίδα της πισίνας, του κήπο και για "
+"οτιδήποτε απατείται κατα την άφιξη και την αναχώρηση των επισκεπτών σας."
+
+#: page-services.php:40
+msgid "We offer 3 main packages which are: "
+msgstr "Προσφέρουμε 3 βασικά πακέτα υπηρεσιών, τα οποία είναι: "
+
+#: page-services.php:50
+msgid ""
+"Posting your vacation rental on our website, making it visible to all of our "
+"customers searching for their trip's villa or apartment."
+msgstr ""
+"Δημοσιεύοντας το τουριστικό σας ακίνητο σας στην ιστοσελίδα μας, γίνεται "
+"ορατό σε όλους τους πελάτες μας που αναζητούν τη βίλα ή το διαμέρισμα για το "
+"ταξίδι τους."
+
+#: page-services.php:54 page-services.php:78 page-services.php:102
+msgid ""
+"We create a quality website with booking functionality for your rental and "
+"we use modern and effective SEO techniques to rank higher into search "
+"engines results."
+msgstr ""
+"Δημιουργούμε μια ποιοτική ιστοσελίδα με σύστημα κρατήσεων για την ενοικίασή "
+"του ακινήτου σας και χρησιμοποιούμε σύγχρονες και αποτελεσματικές τεχνικές "
+"SEO ετσι ώστε η επιχείρηση σας να εμφανίζεται υψηλότερα στα αποτελέσματα των "
+"μηχανών αναζήτησης."
+
+#: page-services.php:58
+msgid ""
+"Effectively communicating with your rental's website and our online "
+"marketplace's clients, from the time of their initial request until their "
+"departure."
+msgstr ""
+"Αποτελεσματική επικοινωνία με τους πελάτες από τον ιστότοπο του ακινήτου σας "
+"και απο την πλατφόρμα μας, από τη στιγμή της αρχικής επικοινωνίας τους μέχρι "
+"την αναχώρησή τους."
+
+#: page-services.php:68
+msgid ""
+"Vacation Rental Website Creation & SEO Promotion + Online Marketplaces "
+"Management"
+msgstr ""
+"Δημιουργία ιστότοπου του τουριστικού σας ακινήτου & προώθηση SEO + "
+"Διαχείριση διαδικτυακών αγορών"
+
+#: page-services.php:74 page-services.php:98
+msgid ""
+"Posting your rental into our website and on other quality rental online "
+"marketplaces, including airbnb, booking.com. HomeAway e.t.c."
+msgstr ""
+"Δημοσίευση του ακινήτου σας στον ιστότοπό μας και σε άλλες διαδικτυακές "
+"αγορές ενοικίασης καταλυμάτων, συμπεριλαμβανομένων των airbnb,  booking.com. "
+"HomeAway κ.α."
+
+#: page-services.php:82 page-services.php:106
+msgid ""
+"Effectively communicate with your rental's website and online marketplace's "
+"clients, from the time of their initial request until their departure."
+msgstr ""
+"Επικοινωνία με τους πελάτες των διαδικτυακών αγορών ενοικίασης τουριστικών "
+"ακινήτων και από τον ιστότοπο σας, από το αίτημά τους μέχρι την αναχώρησή "
+"τους."
+
+#: page-services.php:92
+msgid "Full Rental Vacation Management"
+msgstr "Πλήρης διαχείριση ακινήτου"
+
+#: page-services.php:110
+msgid ""
+"Our company takes care about everything, from the check-in to the check-out "
+"of your guests. We are responsible for cleaning your rental, taking care of "
+"your garden and outdoor areas, cleaning the swimming pool and the concierge "
+"service for your guests."
+msgstr ""
+"Η εταιρεία μας φροντίζει για τα πάντα, από το check-in μέχρι το check-out "
+"των επισκεπτών σας. Είμαστε υπεύθυνοι για τον καθαρισμό του ακινήτου σας, τη "
+"φροντίδα του κήπου και των εξωτερικών χώρων σας, τον καθαρισμό της πισίνας "
+"και την υπηρεσία θυρωρού για τους καλεσμένους σας."
+
+#: page-services.php:115
+msgid ""
+"** This package is available only for rentals based in Heraklion, Crete in "
+"Greece."
+msgstr ""
+"** Αυτό το πακέτο είναι διαθέσιμο μόνο για ακίνητα με έδρα το Ηράκλειο "
+"Κρήτης στην Ελλάδα."
+
+#: page-services.php:116
+msgid ""
+"*** The fee of this package is available only for rentals that has minimum "
+"price per booking the amount of 2.000 euros. For other rentals the fee is "
+"adapted accordingly."
+msgstr ""
+"*** Το ποσοστό χρέωσης του πακέτου είναι διαθέσιμο μόνο για ακίνητα που "
+"έχουν ελάχιστη τιμή ανά κράτηση το ποσό των 2.000 ευρώ. Για άλλα ακίνητα το "
+"ποσοστό προσαρμόζεται ανάλογα."
+
+#: page-services.php:132
+msgid ""
+"By letting us manage your rental in airbnb, booking.com and so many similar "
+"websites, you have more time for you. Also we know some secrets to promote "
+"your rental professionally in a lot of agency's in the field of tourism that "
+"a novice doesn't know about."
+msgstr ""
+"Αφήνοντάς μας να διαχειριστούμε το τουριστικό σας ακίνητο στην airbnb, "
+"booking.com και άλλες παρόμοιες ιστοσελίδες, έχετε περισσότερο χρόνο για "
+"εσάς. Επίσης, γνωρίζουμε μερικά μυστικά για την προώθηση της επιχείρησης σας "
+"που ένας αρχάριος δεν γνωρίζει."
+
+#: page-services.php:150
+msgid ""
+"Having your own high quality website makes your rental much more "
+"professional. You have a strong professional presence on the internet, not "
+"only in airbnb and similar websites and also when your guests book from your "
+"website the fees that have to be payed in booking.com, airbnb e.t.c. doesnt "
+"need to be payed any more so you gain a lot in the long run."
+msgstr ""
+"Έχοντας τη δική σας υψηλής ποιότητας ιστοσελίδα, κάνει την επιχείρηση σας "
+"πολύ πιο επαγγελματική. Έχετε ισχυρή παρουσία στο διαδίκτυο και δεν "
+"εξαρτάστε μόνο απο airbnb και παρόμοιες ιστοσελίδες για την προβολή σας. "
+"Επίσης όταν επισκέπτες κάνουν κράτηση από την ιστοσελίδα σας, δεν χρεώνεστε "
+"τις προμήθειες που πρέπει να πληρωθούν σε booking.com, η airbnb κ.λπ. ετσι "
+"ώστε κερδίζετε περισσότερο μακροπρόθεσμα."
+
+#: page-services.php:156
+msgid ""
+"You can be rest assured that your rental will have a top quality management "
+"in every service we provide. We provide exactly what we say that we provide, "
+"nothing more, nothing less. Also there is no financial loss of any kind for "
+"you as we are at the same side, we earn when your rental earns!"
+msgstr ""
+"Μπορείτε να είστε σίγουροι ότι η επιχείρηση σας θα έχει κορυφαίας ποιότητας "
+"διαχείριση. Παρέχουμε ακριβώς αυτό που λέμε ότι παρέχουμε, τίποτα "
+"περισσότερο, τίποτα λιγότερο. Επίσης δεν υπάρχει καμία οικονομική απώλεια "
+"οποιουδήποτε είδους για εσάς, καθώς είμαστε στην ίδια πλευρά, κερδίζουμε "
+"μόνο όταν η επιχείρηση σας κερδίζει!"
+
+#: search.php:7
+msgid "Search results for: %s"
+msgstr "Αποτελέσματα αναζήτησης για: %s"
+
+#: single-lc-rentals.php:54 template-parts/page/rental-items.php:39
+msgid "From "
+msgstr "Από "
+
+#: single-lc-rentals.php:56 template-parts/page/rental-items.php:41
+msgid "night"
+msgstr "νύχτα"
+
+#: single-lc-rentals.php:69
+msgid "Number Of Single Beds"
+msgstr "Αριθμός μονών κρεβατιών"
+
+#: single-lc-rentals.php:83
+msgid "Gym"
+msgstr "Γυμναστήριο"
+
+#: single-lc-rentals.php:86
+msgid "Swimming-pool"
+msgstr "Πισίνα"
+
+#: single-lc-rentals.php:89
+msgid "Kids Friendly"
+msgstr "Φιλικό προς τα παιδιά"
+
+#: single-lc-rentals.php:92
+msgid "Jacuzzi"
+msgstr "Jacuzzi"
+
+#: single-lc-rentals.php:113
+msgid "Choose A Room:"
+msgstr "Επιλέξτε ένα δωμάτιο:"
+
+#: single-lc-rentals.php:128
+msgid "Reviews"
+msgstr "Κριτικές"
+
+#: single-lc-rentals.php:150
+msgid "Related Rooms"
+msgstr "Σχετικά Δωμάτια"
+
+#: template-parts/components/book-notice.php:2
+msgid ""
+"*Please note: If you're unable to see the booking form, please consider "
+"disabling your ad-blocker!"
+msgstr ""
+"*Σημείωση: Εάν δεν μπορείτε να δείτε τη φόρμα κράτησης, παρακαλούμε "
+"απενεργοποιήστε το ad-blocker σας!"
+
+#: template-parts/components/book-notice.php:3
+msgid ""
+"**The booking options available on this page are provided by third-party "
+"companies, and Lodgings Collective is not directly involved in the bookings "
+"or services. By clicking on the booking links, you will be redirected to the "
+"respective third-party websites, and any bookings made will be subject to "
+"their terms and conditions. Lodgings Collective is not responsible for any "
+"issues or disputes that may arise during the use of these third-party "
+"services. For more information, please review our "
+msgstr ""
+"**Σημείωση: Οι επιλογές κράτησης που είναι διαθέσιμες σε αυτήν τη σελίδα "
+"παρέχονται από εξωτερικές εταιρείες, και η Lodgings Collective δεν "
+"εμπλέκεται άμεσα στις κρατήσεις ή τις υπηρεσίες. Κάνοντας κλικ στους "
+"συνδέσμους κράτησης, θα ανακατευθυνθείτε στις αντίστοιχες ιστοσελίδες των "
+"εξωτερικών εταιρειών και οι κρατήσεις που θα γίνουν θα υπόκεινται στους "
+"όρους και τις προϋποθέσεις τους. Η Lodgings Collective δεν φέρει ευθύνη για "
+"οποιοδήποτε ζήτημα ή διαφωνία που μπορεί να προκύψει κατά τη χρήση αυτών των "
+"υπηρεσιών τρίτων. Για περισσότερες πληροφορίες, παρακαλούμε να ανατρέξετε "
+"στην σελίδα "
+
+#: template-parts/components/book-notice.php:3
+msgid "Terms and Conditions."
+msgstr "Όροι & Προϋποθέσεις."
+
+#: template-parts/components/faq.php:3
+msgid "Most common question we've been asked"
+msgstr "Ερωτήσεις που μας γίνονται συχνα"
+
+#: template-parts/components/faq.php:6
+msgid "FAQ"
+msgstr "Συχνές Ερωτήσεις"
+
+#: template-parts/components/faq.php:17
+msgid "What kind of bookings can i do from \"Lodgings Collective\" ?"
+msgstr "Τι είδους κρατήσεων μπορώ να κάνω από το \"Lodgings Collective\";"
+
+#: template-parts/components/faq.php:21
+msgid ""
+"At Lodgings Collective, we offer travel services to enhance your vacation. "
+"Clients can book accommodations like villas and apartments, rental cars, "
+"flights, and access tours, excursions, and airport taxis through our "
+"affiliate partners. Simply click \"Make a Booking\" at the top of the page, "
+"then \"Book Travel Services\" to explore options. Our team is always "
+"available for assistance."
+msgstr ""
+"Στήν Lodgings Collective, προσφέρουμε υπηρεσίες ταξιδιού για να "
+"εμπλουτίσουμε τις διακοπές σας. Οι πελάτες μπορούν να κάνουν κράτηση για "
+"καταλύματα όπως βίλες και διαμερίσματα, ενοικιαζόμενα αυτοκίνητα, πτήσεις, "
+"και να έχουν πρόσβαση σε περιηγήσεις, εκδρομές και ταξί αεροδρομίου μέσω των "
+"συνεργατών μας. Απλώς κάντε κλικ στο \"Κάντε Μία Κράτηση\" στην κορυφή της "
+"σελίδας, και στη συνέχεια στο \"Κάντε Κράτηση Για Υπηρεσίες\" για να "
+"εξερευνήσετε τις επιλογές. Η ομάδα μας είναι πάντα διαθέσιμη για να σας "
+"βοηθήσει."
+
+#: template-parts/components/faq.php:28
+msgid "What kind of properties can i find in \"Lodgings Collective\" ?"
+msgstr "Τι είδους ακίνητα μπορώ να βρω στο \"Lodgings Collective\";"
+
+#: template-parts/components/faq.php:32
+msgid "We have carefully selected villas and apartments available for renting."
+msgstr ""
+"Προσφέρουμε επιλεγμένες βίλες και διαμερίσματα διαθέσιμα προς ενοικίαση."
+
+#: template-parts/components/faq.php:39
+msgid "In which countries \"Lodgings Collective\" has available rentals?"
+msgstr "Σε ποιές περιοχές δραστηριοποιείται το \"Lodgings Collective\" ?"
+
+#: template-parts/components/faq.php:43
+msgid "We currently have properties in the island Of Crete in Greece."
+msgstr ""
+"Αυτή τη στιγμή προσφέρουμε τουριστικά καταλύματα στο νησί της Κρήτης στην "
+"Ελλάδα."
+
+#: template-parts/components/faq.php:50
+msgid "How can i place my property in the platform?"
+msgstr "Πώς μπορώ να τοποθετήσω το ακίνητό μου στην πλατφόρμα;"
+
+#: template-parts/components/faq.php:54
+msgid "Please fill this form here:"
+msgstr "Συμπληρώστε τη φόρμα εδώ:"
+
+#: template-parts/components/faq.php:58
+msgid "List Your Lodging"
+msgstr "Καταχωρήστε Το Κατάλυμα Σας"
+
+#: template-parts/components/faq.php:59
+msgid "or contact us to discuss the possibility of working together!"
+msgstr "ή επικοινωνήστε μαζί μας για μία συζήτησή πιθανής συνεργασίας!"
+
+#: template-parts/components/reviews-display.php:54
+msgid "Read More "
+msgstr "Περισσότερα "
+
+#: template-parts/components/reviews-display.php:54
+#: template-parts/components/reviews-form.php:59
+msgid "Review"
+msgstr "Κριτική"
+
+#: template-parts/components/reviews-form.php:3
+msgid "Write A Review For Your Staying In "
+msgstr "Γράψτε ένα σχόλιο για την διαμονή σας "
+
+#: template-parts/components/reviews-form.php:15
+msgid "Upload a photo"
+msgstr "Ανεβάστε μία φωτογραφία"
+
+#: template-parts/components/reviews-form.php:20
+msgid "Upload Your Photo!"
+msgstr "Ανεβάστε μία φωτογραφία!"
+
+#: template-parts/components/reviews-form.php:22
+msgid ""
+"Please press the \"Browse\" button, select the photo you would like to "
+"appear in your review and press the \"Upload Your Photo!\" button."
+msgstr ""
+"Πατήστε το κουμπί \"Αναζήτηση\", επιλέξτε τη φωτογραφία που θέλετε να "
+"εμφανίζεται στην κριτική σας και πατήστε το κουμπί \"Ανεβάστε τη φωτογραφία "
+"σας!\"."
+
+#: template-parts/components/reviews-form.php:53
+msgid "Submit Review"
+msgstr "Υποβολή κριτικής"
+
+#: template-parts/components/reviews-form.php:55
+msgid "Reply"
+msgstr "Απάντηση"
+
+#: template-parts/components/reviews-form.php:57
+msgid "Name"
+msgstr "Όνομα"
+
+#: template-parts/components/reviews-form.php:58
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: template-parts/components/reviews-form.php:60
+msgid "Website"
+msgstr "Ιστότοπος"
+
+#: template-parts/components/reviews-form.php:61
+msgid " By commenting you accept the"
+msgstr " Για να δημοσιεύσετε αποδέχεστε το"
+
+#: template-parts/components/reviews-form.php:62
+msgid " Privacy Policy"
+msgstr " Πολιτική Απορρήτου"
+
+#: template-parts/components/reviews-form.php:66
+msgid "Cancel Reply"
+msgstr "Ακύρωση απάντησης"
+
+#: template-parts/components/reviews-form.php:74
+msgid "Your Name"
+msgstr "Το 'Ονομα Σας"
+
+#: template-parts/components/reviews-form.php:78
+msgid "Your Email"
+msgstr "Το email σας"
+
+#: template-parts/components/reviews-form.php:102
+msgid "Your review"
+msgstr "Το review σας"
+
+#: template-parts/components/reviews-form.php:109
+msgid "comment-submit"
+msgstr "υποβολή-σχόλιου"
+
+#: template-parts/components/slider-main.php:1
+msgid "Highlighted images of our rentals"
+msgstr "Εικόνες από τις τουριστικες επιχειρήσεις που διαχειριζόμαστε"
+
+#: template-parts/components/slider-main.php:2
+#: template-parts/components/slider-rentals.php:7
+msgid "previous slide button"
+msgstr "κουμπί προηγούμενης διαφάνειας"
+
+#: template-parts/components/slider-main.php:5
+#: template-parts/components/slider-main.php:10
+#: template-parts/components/slider-main.php:15
+#: template-parts/components/slider-rentals.php:10
+#: template-parts/components/slider-rentals.php:20
+#: template-parts/components/slider-rentals.php:30
+#: template-parts/components/testimonials.php:8
+msgid "slide"
+msgstr "διαφάνεια"
+
+#: template-parts/components/slider-main.php:5
+#: template-parts/components/slider-rentals.php:10
+msgid "1 of 3"
+msgstr "1 από 3"
+
+#: template-parts/components/slider-main.php:10
+#: template-parts/components/slider-rentals.php:20
+msgid "2 of 3"
+msgstr "2 από 3"
+
+#: template-parts/components/slider-main.php:15
+#: template-parts/components/slider-rentals.php:30
+msgid "3 of 3"
+msgstr "3 από 3"
+
+#: template-parts/components/slider-main.php:22
+#: template-parts/components/slider-rentals.php:42
+msgid "next slide button"
+msgstr "κουμπί επόμενης διαφάνειας"
+
+#: template-parts/components/slider-rentals.php:1
+msgid "Highlighted images of the rental"
+msgstr "Εικόνες από τις τουριστικές επιχειρήσεις που διαχειριζόμαστε"
+
+#: template-parts/components/slider-rentals.php:2
+#: template-parts/components/testimonials.php:2
+msgid "Slides"
+msgstr "Διαφάνειες"
+
+#: template-parts/components/slider-rentals.php:3
+#: template-parts/components/testimonials.php:3
+msgid "Slide 1"
+msgstr "Διαφάνεια 1"
+
+#: template-parts/components/slider-rentals.php:4
+#: template-parts/components/testimonials.php:4
+msgid "Slide 2"
+msgstr "Διαφάνεια 2"
+
+#: template-parts/components/slider-rentals.php:5
+msgid "Slide 3"
+msgstr "Διαφάνεια 3"
+
+#: template-parts/components/slider-rentals.php:15
+msgid "Villa First luxury villa"
+msgstr ""
+
+#: template-parts/components/slider-rentals.php:16
+msgid "Enjoy a luxury experience in Crete"
+msgstr ""
+
+#: template-parts/components/slider-rentals.php:17
+#: template-parts/components/slider-rentals.php:27
+#: template-parts/components/slider-rentals.php:37
+msgid "Rooms & Suites"
+msgstr ""
+
+#: template-parts/components/slider-rentals.php:25
+msgid "Unique villa in Heraklion"
+msgstr ""
+
+#: template-parts/components/slider-rentals.php:26
+msgid "A perfect base for your vacation in Crete"
+msgstr ""
+
+#: template-parts/components/slider-rentals.php:35
+msgid "Villa First in Crete"
+msgstr ""
+
+#: template-parts/components/slider-rentals.php:36
+msgid "Luxurious vacation in Heraklion"
+msgstr ""
+
+#: template-parts/components/testimonials.php:1
+msgid "Highlighted images of our testimonials"
+msgstr ""
+
+#: template-parts/components/testimonials.php:8
+msgid "1 of 2"
+msgstr ""
+
+#: template-parts/page/rental-items.php:29
+#: template-parts/page/rental-items.php:30
+msgid "square meters"
+msgstr "τετραγωνικά μέτρα"
+
+#: template-parts/page/rental-items.php:31
+#: template-parts/page/rental-items.php:32
+msgid "Number of persons"
+msgstr "Αριθμός ατόμων"
+
+#: template-parts/page/rental-items.php:33
+#: template-parts/page/rental-items.php:34
+msgid "Number of bathrooms"
+msgstr "Αριθμός μπάνιων"
+
+#: template-parts/post/content-none.php:1
+msgid "Sorry, no posts matched your criteria!"
+msgstr "Λυπούμαστε, καμία ανάρτηση δεν ταιριάζει με τα κριτήριά σας!"
+
+#: template-parts/post/content.php:18
+msgid "Back To Top"
+msgstr "Πίσω Στα Περιεχόμενα"
+
+#: template-parts/post/content.php:29
+msgid "Share:"
+msgstr "Κοινοποιήστε:"
+
+#: template-parts/post/content.php:44
+msgid "Share on Facebook"
+msgstr "Κοινοποίηση στο Facebook"
+
+#: template-parts/post/content.php:47
+msgid "Share on Twitter"
+msgstr "Κοινοποίηση στο Twitter"
+
+#: template-parts/post/content.php:50
+msgid "Share on Linkedin"
+msgstr "Κοινοποίηση στο Linkedin"
+
+#: template-parts/post/content.php:53
+msgid "Share on Pinterest"
+msgstr "Κοινοποίηση στο Pinterest"
+
+#: template-parts/post/content.php:60
+msgid "In Lodgings Collective We Offer:"
+msgstr "Στην Lodgings Collective προσφέρουμε:"
+
+#: template-parts/post/content.php:62
+msgid "Free Website Creation & SEO For Vacation Rentals"
+msgstr "Δωρεάν δημιουργία ιστοσελίδας & SEO προώθησης της"
+
+#: template-parts/post/content.php:68 template-parts/post/content.php:78
+msgid "Check Our Services Page"
+msgstr "Ελέγξτε τη Σελίδα των Υπηρεσιών μας"
+
+#: template-parts/post/content.php:69 template-parts/post/content.php:79
+msgid "List Your Vacation Rental"
+msgstr "Καταχωρήστε Το Τουριστικό Σας Ακίνητο"
+
+#: template-parts/post/content.php:72
+msgid "Platforms Management (Airbnb, VRBO, etc)"
+msgstr "Διαχείριση Πλατφορμών (Airbnb, VRBO, κλπ)"
+
+#: template-parts/post/content.php:82
+msgid "Our Booking Platform For Travelers"
+msgstr "Οι Πλατφόρμα Μας Για Ταξιδιώτες"
+
+#: template-parts/post/content.php:84
+msgid "Book Your Vacation Rental"
+msgstr "Κάντε Κράτηση Για Το Τουριστικό Σας Ακίνητο"
+
+#: template-parts/post/content.php:87
+msgid "Travel Services:"
+msgstr "Οι Υπηρεσίες Μας Για Το Ταξίδι Σας:"
+
+#: template-parts/post/content.php:95
+msgid "Book A Flight"
+msgstr "Κάντε Κράτηση Πτήσης"
+
+#: template-parts/post/content.php:96
+msgid "Book A Vehicle"
+msgstr "Κάντε Κράτηση Οχήματος"
+
+#: template-parts/post/content.php:97
+msgid "Book A Taxi"
+msgstr "Κάντε Κράτηση Για Ταξί"
+
+#: template-parts/post/content.php:98
+msgid "Book A Tour"
+msgstr "Κάντε Κράτηση Για Περιηγήσεις"
+
+#. translators: used betweeen categories
+#: template-parts/post/footer.php:6
+msgid ", "
+msgstr ", "
+
+#. translators: %s is the categories list
+#: template-parts/post/footer.php:8
+msgid "Posted in %s"
+msgstr "Καταχωρήθηκε στο %s"
+
+#: template-parts/single/author.php:2
+msgid "About The Author"
+msgstr "Σχετικά με τον Συγγραφέα"
+
+#: template-parts/single/author.php:27
+msgid "%s post"
+msgid_plural "%s posts"
+msgstr[0] "%s δημοσίευση"
+msgstr[1] "%s δημοσίευσεις"
+
+#: template-parts/single/navigation.php:8
+msgid "Post Navigation"
+msgstr "Πλοήγησης δημοσίευσης"
+
+#: template-parts/single/navigation.php:20
+msgid "Previous Post"
+msgstr "Προηγούμενη Δημοσίευση"
+
+#: template-parts/single/navigation.php:39
+msgid "Next Post"
+msgstr "Επόμενη Δημοσίευση"
+
+#~ msgid "Icon of a telephone"
+#~ msgstr "Εικόνα ενός τηλεφώνου"
+
+#~ msgid "Icon of the Viber application"
+#~ msgstr "Εικόνα του Viber"
+
+#~ msgid "Icon of the Telegram application"
+#~ msgstr "Εικόνα του Telegram"
+
+#~ msgid "Icon of the Instagram application"
+#~ msgstr "Εικόνα του Instagram"
+
+#~ msgid "Icon of an email"
+#~ msgstr "Εικόνα email"
+
+#~ msgid ""
+#~ "Effectively communicating with clients across online marketplaces, our "
+#~ "website, and your own rental website, to provide all necessary support "
+#~ "from their initial inquiry to departure."
+#~ msgstr ""
+#~ "Αποτελεσματική επικοινωνία με τους πελάτες από τις διαδικτυακές αγορές, "
+#~ "τον ιστότοπό μας και τον δικό σας ιστότοπο του τουριστικού σας ακινήτου, "
+#~ "για την παροχή όλης της απαραίτητης υποστήριξης από την αρχική τους "
+#~ "επικοινωνία έως την αναχώρησή τους."
+
+#~ msgid ""
+#~ "*** Please contact us to find the best fee for your specific rental's "
+#~ "needs."
+#~ msgstr ""
+#~ "*** Παρακαλώ επικοινωνήστε μαζί μας για να βρούμε μαζί την καλύτερη "
+#~ "χρέωση για το ακίνητο σας."
+
+#~ msgid ""
+#~ "A vacation rental management and promotion service for unique rentals in "
+#~ "Heraklion Crete in Greece."
+#~ msgstr ""
+#~ "Εταιρία διαχείρησης και προώθησης επιλεγμένων τουριστικών ακινήτων στο "
+#~ "Ηράκλειο Κρητης, Ελλάδα."
+
+#~ msgid ""
+#~ "You can make a reservation for your villa or apartment you would like for "
+#~ "your accommodation. Just go to the \"Make A Booking\" link and see the "
+#~ "available options. You choose, enter your details, press the \"Submit\" "
+#~ "button and its done! A confirmation email will be send to you with the "
+#~ "details of your booking."
+#~ msgstr ""
+#~ "Μπορείτε να κάνετε κράτηση για τη βίλα ή το διαμέρισμά σας που επιθυμείτε "
+#~ "για τη διαμονή σας. Απλώς μεταβείτε στο σύνδεσμο \"Κάντε κράτηση\" και "
+#~ "δείτε τις διαθέσιμες επιλογές. Επιλέγετε, καταχωρείτε τα στοιχεία σας, "
+#~ "πατάτε το κουμπί \"Υποβολή\" και η κράτηση σας πραγματοποιήθηκε! Ένα "
+#~ "email επιβεβαίωσης θα σας σταλεί με τα στοιχεία της κράτησής σας."
+
+#~ msgid "Make A Booking:"
+#~ msgstr "Κάντε Μια Κράτηση:"
+
+#~ msgid ""
+#~ "Vacation Rental Online Marketplaces Management + SEO & Website Creation"
+#~ msgstr ""
+#~ "Διαχείριση Διαδικτυακών Αγορών Τουριστικών Καταλυμάτων + SEO & Δημιουργία "
+#~ "Ιστοσελίδας"
+
+#~ msgid "Subscribe"
+#~ msgstr "Εγγράφείτε ως συνδρομητές"
+
+#~ msgid "Viber"
+#~ msgstr "Viber"
+
+#~ msgid "Telegram"
+#~ msgstr "Telegram"
+
+#~ msgid "Email"
+#~ msgstr "Email"

@@ -1,0 +1,154 @@
+.footer {
+	background-color: $orange-dark;
+
+	&__container {
+		position: relative;
+		padding: 5rem 0;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		gap: 2rem;
+		padding-bottom: 1rem;
+
+		@include breakpoint(tablet) {
+			flex-direction: row;
+			gap: 0;
+			justify-content: space-around;
+		}
+
+		&-item {
+			width: 100%;
+			text-align: center;
+
+			@include breakpoint(tablet) {
+				width: calc(100% / 3);
+				text-align: unset;
+			}
+
+			@include breakpoint(desktop) {
+				width: calc(100% / 4);
+			}
+
+			&-links {
+
+				ul {
+					list-style-type: none;
+					margin: 0;
+					padding: 0.25rem 0 0;
+				}
+
+				li {
+					margin: 0.5rem 0;
+					text-shadow: 0.5px 0.5px 0.5px rgba(0,0,0,0.4);
+
+					p {
+						line-height: 1;
+						text-shadow: 0.25px 0.25px 0.25px rgba(0,0,0,0.4);
+					}
+				}
+
+				a {
+					color: white;
+					transition: 0.3s ease-out;
+
+					&:hover {
+						color: black;
+					}
+				}
+			}
+
+			&-contact {
+
+				ul {
+					list-style-type: none;
+					margin: 0;
+					padding: 0.25rem 0 0;
+				}
+
+				li {
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					margin: 0.5rem 0;
+					gap: 0.5rem;
+
+					@include breakpoint(tablet) {
+						justify-content: flex-start;
+						align-items: flex-start;
+					}
+
+					p {
+						margin: 0;
+						padding: 0;
+						color: white;
+						transition: 0.3s ease-out;
+
+						&:hover {
+							color: black;
+						}
+					}
+				}
+			}
+
+			&-newsletter {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+
+				@include breakpoint(tablet) {
+					align-items: flex-start;
+				}
+
+				p {
+
+					&:nth-child(2) {
+						color: black;
+					}
+				}
+
+				input[type="email"] {
+					outline: none;
+					padding: 0.7rem 0.5rem;
+					border-radius: 2.5px;
+					border: none;
+				}
+			}
+
+			&-logo {
+				padding-top: 1rem;
+
+				img {
+					border-radius: 15px;
+				}
+
+			}
+		}
+
+		&-border {
+			margin-top: 2.5rem;
+			width: 100%;
+			height: 1px;
+			background-color: white;
+		}
+	}
+
+	&__copyright {
+		width: 100%;
+
+		&-container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+
+			@include breakpoint(phoneLandscape) {
+				flex-direction: row;
+			}
+		}
+	}
+}
